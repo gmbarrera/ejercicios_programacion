@@ -1,3 +1,19 @@
+
+1)	Leer 3 números, y mostrar los mayores al promedio de ellos.
+
+2)	Leer 3 números y mostrar el menor.
+
+3)	Leer un número, si es par, pedir 2 números, con esos mostrar el menor, en cambio si es impar, pedir 3 números y mostrar el mayor de esos 3.
+
+4)	Ingresar un número mayor a 1000 y mostrarlo invertido (ejemplo: 3452 -> 2543)
+
+5)	Ingresar un número e indicar la cantidad de dígitos.
+
+6)	Leer nombre mientras la palabra leída sea distinta de ‘FIN’, computar y mostrar al final cuántos nombres se ingresaron.
+
+
+
+
 19)              Construir un programa que calcule y muestre por pantalla las raíces de la ecuación de segundo grado de coeficientes reales ( ). El programa debe diferenciar los diferentes casos que puedan surgir: la existencia de dos raíces reales distintas, de dos raíces reales iguales y de dos raíces complejas.  
 Nota: se recomienda el empleo de sentencias if–else anidadas.
  
