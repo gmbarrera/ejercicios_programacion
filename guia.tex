@@ -1,0 +1,55 @@
+\documentclass[a4paper,11pt,spanish,twoside]{book}
+
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[a4paper, lmargin=0.5in, rmargin=1in]{geometry}
+\usepackage{enumitem}
+
+\title{Guía de Programación}
+\author{Ing. Gabriel Barrera}
+\date{2017}
+
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand\shorthandsspanish{}
+
+\restylefloat{table}
+
+\begin{document}
+
+   \maketitle
+
+   \frontmatter
+
+   \tableofcontents
+
+   \include{./tex_files/prologo}
+
+   \mainmatter
+
+   \part{Programación Estructurada}
+
+   \include{./tex_files/secuenciales}
+
+   \include{./tex_files/condicionales}
+
+   \include{./tex_files/repeticiones}
+
+   \include{./tex_files/funciones}
+
+   \include{./tex_files/vectores}
+
+   \include{./tex_files/matrices}
+
+   \include{./tex_files/archivos}
+
+   \include{./tex_files/integracion}
+
+   \part{Programación Orientada a Objetos}
+
+
+
+\end{document}

@@ -1,0 +1,320 @@
+\chapter{Instrucciones condicionales}
+
+\section{Condicional Simple}
+
+ \begin{enumerate}[resume]
+  
+	\item Leer desde teclado 2 números y mostrar el mayor de ellos.
+  
+	\item Que pida un número del 1 al 7 y diga el día de la semana correspondiente
+  
+	\item Que pida un número del 1 al 12 y diga el nombre del mes correspondiente
+   
+	\item Que pida una letra y detecte si es una vocal.
+    
+    \item Simular la tirada de un dado e indicar si es par o impar.
+    
+	\item (15’) Ingresar dos números y multiplicarlos. Mostrar una leyenda según el producto sea negativo, positivo o cero.
+    
+   \item Leer 4 números y mostrar el mayor.
+   
+   \item Leer 3 números y mostrarlos ordenados.
+     
+   \item Leer 2 números y si es posible dividir el primero por el segundo.
+    
+   \item Leer 4 números, calcular el promedio y determinar cuántos números son mayores al promedio.
+    
+   \item Leer un entero A y dos reales B y C. Si A es mayor al promedio entre B y C, mostrar A*B caso contrario mostrar A*C
+    
+   \item Indicar el valor final de la compra, si solo se puede comprar un solo tipo de producto y si la cantidad comprada supera los \$100, se le debe realizar un descuento del 10\%  sobre el total de la compra.    
+    
+   \item Generar 1 número aleatorio entre 1 y 5, almacenarlo en la variable “num”. Luego
+generar tantos números aleatorios como contenga “num” y calcular el promedio.
+
+   \item Leer desde teclado un número entero, si dicho número es menor a 100 generar un
+ número aleatorio real entre 10 y 50, y mostrarlo. En cambio si no es menor a
+ 100 generar un número aleatorio entero entre 1 y 20.
+
+   \item Un obrero necesita calcular su salario semanal, el cual se obtiene de la
+   siguiente manera (leer la cantidad de horas trabajadas): Si trabaja 40 horas
+   o menos se le paga \$16 por hora Si trabaja más de 40 horas se le paga \$16
+   por cada una de las primeras 40 horas y \$20 por cada hora extra.
+
+  \item Pedir una nota entre 0 y 10, y mostrar en forma de palabras la
+    calificación obtenida:
+    \begin{itemize}
+      \item de 0 a 4: insuficiente
+      \item 5: suficiente
+      \item 6: bien
+      \item 7 y 8: notable
+      \item 9: sobresaliente
+      \item 10: excelente
+    \end{itemize}
+
+  \item Pedir el día, mes y año e indicar si es una fecha valida (Leerlos como
+    números)
+    \begin{enumerate}
+      \item Suponiendo que todos los meses tienen 30 días
+      \item Tomando las longitudes de meses reales\\
+          31 días: 1 Enero- 3 Marzo- 5 Mayo- 7 Julio- 8 Agosto-10 Octubre-12 Diciembre\\
+          30 días: 4 Abril– 6 Junio– 9 Septiembre– 11 Noviembre\\
+          28 días: 2 Febrero, año no bisiesto\\
+          29 días: 2 Febrero, año bisiesto
+      \end{enumerate}
+
+  \item Pedir un numero de 5 cifras (validarlo), determinar si es capicúa
+    (TIP: operador %)
+
+  \item Pedir 4 números, calcular y mostrar la diferencia entre el mayor y el
+    menor.
+
+  \item Pedir la fecha de nacimiento (día, mes y año) y determinar el signo del
+    zodíaco.
+    \begin{enumerate}
+      \item Capricornio: enero 21 / febrero 16
+      \item Acuario: febrero 17 / marzo 12
+      \item Piscis: marzo 13 / abril 18
+      \item Aries: abril 19 / mayo 14
+      \item Tauro: mayo 15 / junio 21
+      \item Géminis: junio 22 / julio 20
+      \item Cáncer: julio 21 / agosto 10
+      \item Leo: agosto 11 / septiembre 16
+      \item Virgo: septiembre 17 / octubre 31
+      \item Libra: noviembre 1 / noviembre 23
+      \item Escorpio: noviembre 24 / noviembre 29
+      \item Ofiuco: noviembre 30 / diciembre 18
+      \item Sagitario: diciembre 19 / enero 20
+    \end{enumerate}
+
+  \item Un postulante a un empleo, realiza un test de capacitación, se obtuvo
+    la siguiente información: cantidad total de preguntas que se le realizaron
+    y la cantidad de preguntas que contestó correctamente. Se pide confeccionar
+    un programa que ingrese los dos datos por teclado e informe el nivel del
+    mismo según el porcentaje de respuestas correctas que ha obtenido, y
+    sabiendo que:
+      \begin{itemize}
+        \item Nivel máximo:              Porcentaje$>$=90\%.
+        \item Nivel medio:               Porcentaje$>$=75\% y $<$ 90\%.
+        \item Nivel regular:             Porcentaje$>$=50\% y  $<$ 75\%.
+        \item Fuera de nivel:            Porcentaje$<$50\%.
+      \end{itemize}
+
+  \item Construir un programa que calcule el índice de masa
+    corporal de una persona e indique el estado
+    en el que se encuentra esa persona en función del valor de IMC:
+    \[IMC = peso [kg] / altura^2 [m] \] 
+    \begin{table}[H]
+     \begin{center}
+      \begin{tabular}{l|l}
+        Valor de IMC &    Diagnóstico\\
+        \toprule
+        $<$ 16         &      Criterio de ingreso en hospital\\
+        de 16 a 17   &   infrapeso\\
+        de 17 a 18   &   bajo peso\\
+        de 18 a 25   & peso normal (saludable)\\
+        de 25 a 30   &   sobrepeso (obesidad de grado I)\\
+        de 30 a 35   &   sobrepeso crónico (obesidad de grado II)\\
+        de 35 a 40   &   obesidad premórbida (obesidad de grado III)\\
+        $>$40          &       obesidad mórbida (obesidad de grado IV)\\
+      \end{tabular}
+     \end{center}
+    \end{table}       
+
+  \item Construir un programa que calcule y muestre por pantalla
+    las raíces de la ecuación de segundo grado de coeficientes reales (\ref{cuadratica}). El
+    programa debe diferenciar los diferentes casos que puedan surgir: la
+    existencia de dos raíces reales distintas, de dos raíces reales iguales y
+    de dos raíces complejas.  
+    \begin{equation}
+    \label{cuadratica}
+    x =\frac{ -b \pm \sqrt{b^2-4ac}}{2a}
+    \end{equation}
+    
+    Nota: se recomienda el empleo de sentencias if–else anidadas.
+     
+  \item Hacer un algoritmo que tome el peso en libras de una
+    cantidad de ropa a lavar en una lavadora y nos devuelva el nivel
+    dependiendo del peso; además nos informe la cantidad de litros de agua que
+    necesitamos. Se sabe que con más de 30 libras la lavadora no funcionara ya
+    que es demasiado peso. Si la ropa pesa 22 ó más libras, el nivel será de
+    máximo; si pesa 15 o más nivel será de alto; si pesa 8 ó más será un nivel
+    medio o de lo contrario el nivel será mínimo. La cantidad de litros de agua
+    necesaria es el 25\% del peso de la ropa.
+     
+  \item Martha va a realizar su fiesta de quince años. Por lo cual
+    ha invitado a una gran cantidad de personas. Pero también ha decidido
+    algunas reglas: Que todas las personas con edades mayores a los quince
+    años, sólo pueden entrar si traen regalos; que jóvenes con los quince años
+    cumplidos entra totalmente gratis pero los de menos de quince años no
+    pueden entrar a la fiesta. Hacer un algoritmo donde se tome la edad de una
+    persona y que requisito de los anteriores le toca cumplir si quiere entrar.
+     
+  \item El ejército nacional colombiano ha decidido hacer una
+    jornada de ventas de libretas militares para muchos hombres que no han
+    definido su situación militar u otros que no son aptos para prestar el
+    servicio. Además de la edad de joven, se tendrá en cuenta el nivel del
+    sisben de la persona. Para todos los hombres mayores de 18 años la libreta
+    tendrá un costo de \$350000 pero para aquellos que tengan nivel 1, se les
+    hará un descuento del 40\%; para los de nivel 2, el descuento será del 30\%;
+    para nivel 3 del 15\%; y para los demás estratos o niveles no habrá
+    descuento. Para los jóvenes con los 18 años la libreta tiene un costo de
+    \$200000 y los jóvenes con nivel del sisben 1, tendrán un descuento del 60\%;
+    para los de nivel 2, descuento del 40\%, para los del 3, un descuento del
+    20\% y para los demás estratos no habrá descuento. Hacer un algoritmo que
+    tome la edad y el nivel del sisben de un hombre y nos muestre descuento que
+    le hacen y su valor final a pagar.
+     
+  \item Se cuenta con los votos obtenidos por Juan, Pedro y María
+    en una elección “mejor compañero del aula”. Para ganar la elección se debe
+    obtener como mínimo el  50\% del total de votos más 1.
+    En caso que no haya un ganador, se repite la elección en una  segunda
+    vuelta, yendo a ésta los dos candidatos que obtengan la más alta votación.
+    Se anula la  elección en caso de producirse un empate doble por el segundo
+    lugar o un empate triple.
+    Diseñe  un algoritmo que determine el resultado de la elección.
+     
+  \item Realizar un juego  que muestre en pantalla una lista de
+    personajes famosos:
+    Olmedo, Carrio, Susana, Maradona, Menem
+    El usuario debe seleccionar uno de ellos y luego contestar las siguientes
+    preguntas, en este orden
+    -          Está vivo?
+    -          Es mujer?
+    -          Es político?
+    La computadora debe indicarle de acuerdo a las respuestas, cual es el
+    personaje elegido por el usuario
+ 
+  \item Que muestre un menú donde las opciones sean “Equilátero”,
+    “Isósceles” y “Escaleno”, pida una opción y calcule el perímetro del
+    triángulo seleccionado
+     
+  \item Que pase de Kg a otra unidad de medida de masa, mostrar en
+    pantalla un menú con las opciones posibles (Gramos, miligramos, decigramos,
+    centigramos)
+     
+  \item Una ciudad se divide en tres zonas: 1, 2 y 3. En la zona
+    1, el metro cuadrado se cotiza a \$1000. En la zona 2, se cotiza a \$900, y
+    en la zona 3 a \$700. Una vez calculada la cotización, si esta supera el
+    monto de \$80000, se le aplica un 2\% de impuesto para obtener el precio
+    final del inmueble. Obtener el precio final de un inmueble si se ingresan
+    la zona y la superficie del mismo.
+     
+  \item Dada el peso, la altura y el sexo, de unos estudiantes.
+    Determinar la cantidad de vitaminas que deben consumir estos estudiantes,
+    en base al siguiente criterio:
+     
+    "Si son varones, y su estatura es mayor a 1.60, y su peso es mayor o igual
+    a 150 lb, su dosis, serán: 20\% de la estatura y 80\% de su peso. De lo
+    contrario, la dosis será la siguiente: 30\% de la estatura y 70\% de su peso.
+    Si son mujeres, y  su estatura es mayor de a 1.50 m y su peso es mayor o
+    igual a 130 lb, su dosis será: 25\% de la estatura y 75\% de su peso. De lo
+    contrario, la dosis será: 35\% de la estatura y 65\% de su peso. La dosis
+    debe ser expresada en gramos."
+     
+
+
+
+
+
+
+\end{enumerate}
+
+
+
+\section{Condicional M\'ultiple}
+
+\begin{enumerate}[resume]
+
+	\item Se lee un número entre 1 y 5, luego se ingresa el idioma deseado (1-Español, 2-Ingles). Mostrar cómo se escribe el número ingresado en el idioma seleccionado.
+
+    \item Que pase de Kg a otra unidad de medida de masa, mostrar en pantalla un menú con las opciones posibles (Gramos, miligramos, decigramos, centigramos)
+
+	\item El costo de las llamadas internacionales depende de la zona geográfica del país destino y de la cantidad de minutos hablados. En la siguiente tabla se representa el costo del  minuto por zona, cada zona tiene un número clave conocido por el operador y si el costo supera los 15\$, se le realiza un 15\% de descuento ,solo se ingresa la clave y los minutos El programa debe indicar la zona y el total a pagar
+
+    \begin{table}[H]
+     \begin{center}
+      \begin{tabular}{l|l|l}
+		Clave &           Zona & Precio \\
+		\toprule
+		12 & América del Norte &  0.68 \\
+		15 & América Central   &  0.55 \\
+		18 & América del Sur   &  0.62 \\
+		19 & Europa            &  0.85 \\
+		23 & Asia              &  0.89 \\
+		25 & África            &  0.82 \\     
+      \end{tabular}
+     \end{center}
+    \end{table}
+
+	\item Calcular el sueldo de un operario teniendo en cuenta la cantidad de horas extras y la cantidad de horas, de acuerdo a los valores indicados:
+    \begin{table}[H]
+     \begin{center}
+      \begin{tabular}{c|r|r}	 
+	 
+		CATEGORÍA       &        PRECIO HORA      &         PRECIO  HORA EXTRA \\
+		\toprule
+		1 & 14\$ & 20.50\$ \\
+		2 & 17\$ & 24\$ \\
+		3 & 21\$ & 34\$ \\
+	 \end{tabular}
+   \end{center}
+  \end{table}
+
+	Cada trabajador puede tener como máximo 30 horas extras, si tiene más se le paga un 7\% menos del valor indicado en la tabla a cada categoría
+	
+	\item Se pide determinar si los alumnos pueden acceder a la beca o no de acuerdo a su promedio:
+	 \begin{table}[H]
+	      \begin{center}
+	       \begin{tabular}{l|c|c}
+	              Carrera                   &               cuatrimestre                  &      promedio \\
+	         \toprule
+	1- Economía o 4- contabilidad & $\geq$ 6 &  $>$9.0 \\
+	2- Informática o 6- sistemas  & $>$ 6 &  $>$9.2 \\
+	3- Agronomía o 5- química     & $>$ 5 &  $>$8.8 \\
+
+		\end{tabular}
+	   \end{center}
+	  \end{table}
+	  
+	  \item Una empresa utiliza el siguiente tipo de comercialización para sus productos. Se tienen 2 productos A y B, el producto A tiene tres tipos de fragancias diferentes (primavera, marino y otoño) y el producto B tiene tres tipos de presentaciones diferentes (pequeño, mediano y grande)
+	   
+	  El costo de cada uno es:
+	   \begin{table}[H]
+	  	\begin{center}
+	  	 \begin{tabular}{l|l}
+			PRODUCTO    A  & PRODUCTO  B \\	
+            \toprule
+	           Otoño  1.50\$         &     grande 2.05\$ \\
+	           Primavera 1.55\$      &     mediano  1.60\$ \\
+	           Marino 1.60\$         &     pequeño  1.10\$ \\
+	   	 \end{tabular}
+	   	\end{center}
+	   \end{table}
+		   	 
+	  Indicar el valor final de la compra, si solo se puede comprar un solo tipo de producto y si la cantidad comprada supera los \$100, se le debe realizar un descuento del 10\%  sobre el total de la compra.
+	   
+	   
+	\item Simular la tirada de un dado e indicar si es par o impar, usando Switch
+	   
+	\item Que pase de Kg a otra unidad de medida de masa, mostrar en pantalla un menú con las opciones posibles (Gramos, miligramos, decigramos, centigramos)
+	   
+	\item Pedir una nota entre 0 y 10, y mostrar en forma de palabras:
+		\begin{itemize}
+	       \item de 0 a 4: insuficiente
+	  	   \item 5: suficiente
+	  	   \item 6: bien
+	       \item 7 y 8: notable
+	       \item 9: sobresaliente
+	       \item 10: excelente
+	   \end{itemize}
+	   
+	\item Escribir y ejecutar un programa que simule un calculador simple, lee dos enteros y un carácter. Si el carácter es “+”, se imprime suma; si es un “-“, se Imprime diferencia; si es “*” se imprime producto, si es “/” se imprime cociente; y si es un “\%” se imprime el resto.
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+\end{enumerate}

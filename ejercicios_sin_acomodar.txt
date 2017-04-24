@@ -1,0 +1,1176 @@
+19)              Construir un programa que calcule y muestre por pantalla las raíces de la ecuación de segundo grado de coeficientes reales ( ). El programa debe diferenciar los diferentes casos que puedan surgir: la existencia de dos raíces reales distintas, de dos raíces reales iguales y de dos raíces complejas.  
+Nota: se recomienda el empleo de sentencias if–else anidadas.
+ 
+20)              Hacer un algoritmo que tome el peso en libras de una cantidad de ropa a lavar en una lavadora y nos devuelva el nivel dependiendo del peso; además nos informe la cantidad de litros de agua que necesitamos. Se sabe que con más de 30 libras la lavadora no funcionara ya que es demasiado peso. Si la ropa pesa 22 ó más libras, el nivel será de máximo; si pesa 15 o más nivel será de alto; si pesa 8 ó más será un nivel medio o de lo contrario el nivel será mínimo. La cantidad de litros de agua necesaria es el 25% del peso de la ropa.
+ 
+21)              Martha va a realizar su fiesta de quince años. Por lo cual ha invitado a una gran cantidad de personas. Pero también ha decidido algunas reglas: Que todas las personas con edades mayores a los quince años, sólo pueden entrar si traen regalos; que jóvenes con los quince años cumplidos entra totalmente gratis pero los de menos de quince años no pueden entrar a la fiesta. Hacer un algoritmo donde se tome la edad de una persona y que requisito de los anteriores le toca cumplir si quiere entrar.
+ 
+22)              El ejército nacional colombiano ha decidido hacer una jornada de ventas de libretas militares para muchos hombres que no han definido su situación militar u otros que no son aptos para prestar el servicio. Además de la edad de joven, se tendrá en cuenta el nivel del sisben de la persona. Para todos los hombres mayores de 18 años la libreta tendrá un costo de $350000 pero para aquellos que tengan nivel 1, se les hará un descuento del 40%; para los de nivel 2, el descuento será del 30%; para nivel 3 del 15%; y para los demás estratos o niveles no habrá descuento. Para los jóvenes con los 18 años la libreta tiene un costo de $200000 y los jóvenes con nivel del sisben 1, tendrán un descuento del 60%; para los de nivel 2, descuento del 40%, para los del 3, un descuento del 20% y para los demás estratos no habrá descuento. Hacer un algoritmo que tome la edad y el nivel del sisben de un hombre y nos muestre descuento que le hacen y su valor final a pagar.
+ 
+23)              Se cuenta con los votos obtenidos por Juan, Pedro y María en una elección “mejor compañero del aula”. Para ganar la elección se debe obtener como mínimo el  50% del total de votos más 1.
+En caso que no haya un ganador, se repite la elección en una  segunda vuelta, yendo a ésta los dos candidatos que obtengan la más alta votación. Se anula la  elección en caso de producirse un empate doble por el segundo lugar o un empate triple.
+Diseñe  un algoritmo que determine el resultado de la elección.
+ 
+24)              Realizar un juego  que muestre en pantalla una lista de personajes famosos:
+Olmedo, Carrio, Susana, Maradona, Menem
+El usuario debe seleccionar uno de ellos y luego contestar las siguientes preguntas, en este orden
+-          Está vivo?
+-          Es mujer?
+-          Es político?
+La computadora debe indicarle de acuerdo a las respuestas, cual es el personaje elegido por el usuario
+           
+28)              Que muestre un menú donde las opciones sean “Equilátero”, “Isósceles” y “Escaleno”, pida una opción y calcule el perímetro del triángulo seleccionado
+ 
+29)              Que pase de Kg a otra unidad de medida de masa, mostrar en pantalla un menú con las opciones posibles (Gramos, miligramos, decigramos, centigramos)
+ 
+30)              Una ciudad se divide en tres zonas: 1, 2 y 3. En la zona 1, el metro cuadrado se cotiza a $1000. En la zona 2, se cotiza a $900, y en la zona 3 a $700. Una vez calculada la cotización, si esta supera el monto de $80000, se le aplica un 2% de impuesto para obtener el precio final del inmueble. Obtener el precio final de un inmueble si se ingresan la zona y la superficie del mismo.
+ 
+31)              Dada el peso, la altura y el sexo, de unos estudiantes. Determinar la cantidad de vitaminas que deben consumir estos estudiantes, en base al siguiente criterio:
+ 
+“Si son varones, y su estatura es mayor a 1.60, y su peso es mayor o igual a 150 lb, su dosis, serán: 20% de la estatura y 80% de su peso. De lo contrario, la dosis será la siguiente: 30% de la estatura y 70% de su peso. Si son mujeres, y  su estatura es mayor de a 1.50 m y su peso es mayor o igual a 130 lb, su dosis será: 25% de la estatura y 75% de su peso. De lo contrario, la dosis será: 35% de la estatura y 65% de su peso. La dosis debe ser expresada en gramos.”
+Instrucción: while 
+60)             Una encuestadora debe realizar el sondeo de consumo de un determinado producto, para ello recibe un sobre con 100 encuestas a procesar. En cada encuesta se informan el código de producto (entre 1 y 50), el nivel de satisfacción (entre 0 y 10) y el costo. La encuestadora debe informar el promedio general de satisfacción y dado un código de artículo leído previamente informar su promedio general con su mayor costo.
+  
+62)              Realizar un programa que lea registro con los siguientes datos:
+Nombre - Edad - Altura - Peso - Origen (1-Argentino, 2-Extranjero)
+La carga finaliza con la edad <= 0.
+Calcular y mostrar la siguiente información:
+1) La cantidad de argentinos y Extranjeros.
+2) El argentino con mayor edad.
+3) El promedio de peso.
+4) El nombre de la persona más alta.
+ 
+63)              Se ha realizado un relevamiento sobre el procesador de texto más utilizado: número  identificatorio (1-Word, 2-LibreWriter y 3-LaTeX), cantidad de documentos creados, tiempo que usan el procesador por día. Se ingresan los datos hasta que el identificador sea igual o menor a 0. Calcular y mostrar:
+a.      Dado un procesador determinado (ingresado por teclado), cuál es el promedio de documentos creados para ese procesador.
+b.      El procesador con mayor tiempo dedicado.
+ 
+64)              Realizar una calculadora básica tipo "almacenero"
+La misma funciona de la siguiente manera:
+a) pide un número
+b) pide una operación (suma, resta, multiplicación, división, limpiar memoria, finalizar)
+c) al valor que tiene almacenado previamente (inicialmente en cero) le aplica la operación seleccionada usando el número ingresado como 2do operando.
+Si selecciona limpiar memoria debe poner el cero dicho valor, y si selecciona finalizar, sale del programa.
+ 
+Ejemplo de ejecución:
+Ingrese numero: 5
+Operación: 1 (suma)
+resultado: 5    (0 + 5)
+Ingrese numero: 10
+Operación: 2 (resta)
+resultado: -5   (5 - 10)
+Ingrese numero: 20
+Operación: 1 (suma)
+resultado: 15  (-5 + 20)
+Ingrese numero: 3
+Operación: 4 (división)
+resultado: 5    ( 15 / 3 )
+
+Instrucción: while 
+ 
+60)              Una encuestadora debe realizar el sondeo de consumo de un determinado producto, para ello recibe un sobre con 100 encuestas a procesar. En cada encuesta se informan el código de producto (entre 1 y 50), el nivel de satisfacción (entre 0 y 10) y el costo. La encuestadora debe informar el promedio general de satisfacción y dado un código de artículo leído previamente informar su promedio general con su mayor costo.
+ 
+61)              Ingresar para un análisis de consumo de: tipo de gaseosa (1-Cola, 2-Naranja, 4-Otras), litros consumidos por semana. Se ingresan los datos hasta que el tipo de gaseosa sea igual o menor a 0. Calcular y mostrar:
+                        a.    El promedio general de gaseosa consumida.
+                        b.    El tipo de gaseosa con mayor consumo.
+ 
+62)              Realizar un programa que lea registro con los siguientes datos:
+Nombre - Edad - Altura - Peso - Origen (1-Argentino, 2-Extranjero)
+La carga finaliza con la edad <= 0.
+Calcular y mostrar la siguiente información:
+1) La cantidad de argentinos y Extranjeros.
+2) El argentino con mayor edad.
+3) El promedio de peso.
+4) El nombre de la persona más alta.
+ 
+
+ Funciones
+
+ 1)    Crear una función que devuelva un valor menor al argumento que recibe dicha función. Y programar un ejemplo del mismo.
+2)    Crear una función que reciba 2 números y devuelve el promedio.
+3)    Crear una función que reciba 3 números y muestre el mayor.
+
+
+Una empresa necesita de diestros programadores los cuales deben solucionar un problema que tienen para mantener su cartera de clientes. Ellos han observados que los clientes al llamar para realizar un pedido no le pasan todos sus datos a la recepcionista, y luego el vendedor no sabe bien que datos faltan porque están en la planilla de la recepcionista. Entonces pensaron en un mecanismo para solventar la situación. La recepcionista carga los datos (los que puede, porque se distrae fácilmente) y los vuelca al sistema, entonces no siempre vuelca todos los datos, a veces se olvida de alguno, pero sí le dice al cliente que código le tocó. Luego el vendedor le pregunta el código al cliente y con ello trae los datos que pudo cargar la recepcionista y si falta alguno el vendedor lo completa y en una descripción anota lo que necesita el cliente.
+Los datos de los clientes son: código (automático por el programa), nombre, apellido, teléfono, email.
+A lo sumo se van a cargar 20 registros.
+Al final del día, los jefes sacan un listado de los clientes cargados.
+ 
+ 
+ De integración
+ 
+65)              Crear un programa que use funciones que realice las siguientes tareas: (TE 30')
+1) Debe leer de teclado un número mayor a 2.
+2) Generar una matriz cuadrada del tamaño del numero ingresado anteriormente
+3) Generar un vector con las sumas de las columnas.
+ 
+66)              Se tiene un archivo con la siguiente estructura: edad , nombre , peso
+Se necesita hacer un programa que cargue todos los datos en un vector. Luego de tenerlo en un vector, calcular el promedio de edad y la persona con mayor peso.
+ 
+Ejemplo del archivo:
+23,Pepe,66
+41,Juan,72
+ 
+
+AÚN SIN ACOMODAR (PUEDEN ESTAR REPETIDOS)
+ 
+2. Se leen números mientras estos sean múltiplos de 2, se pide calcular el menor de ellos y el promedio.
+3. Se ingresa por teclado un número, el cuál debe estar entre 2 y 10. Luego se leen tantos números reales como el número ingresado. De los números reales ingresados determinar: el mayor, menor y cuántos son múltiplos de 3.
+
+ 
+1.    Leer 2 números y determinar si el primero es mayor al promedio de ambos.
+ 
+2.            Leer un número si es 1 pedir 2 números y mostrar la suma, sino pedir un número y mostrar el cuadrado.
+ 
+3.            Leer 5 números y mostrar el promedio (usando while).
+ 
+4.            Leer 10 números y mostrar el mayor de ellos (usando while).
+ 
+5.            Leer 5 pares de números, calcular y mostrar la suma de los primeros de cada par y el mayor de los segundos.
+ 
+6.            Leer 10 números, si la suma acumulada supera los 50 sumar en otra variable
+  
+10.         Que muestre un menú donde las opciones sean “Equilátero”, “Isósceles” y “Escaleno”, pida una opción y calcule el perímetro del triángulo seleccionado
+  
+12.         Se censan a personas. El ingreso finaliza cuando la edad es 0. Calcular y mostrar la edad promedio. La edad no puede ser negativa.
+ 
+13.         Leer desde teclado registro con los siguientes campos altura, peso, edad, nacimiento, nro. calzado. El ingreso finaliza con altura <= 0
+ 
+Determinar y mostrar los siguientes registros:
+1) El de mayor altura
+2) el de menos peso
+3) el que tenga el nro de calzado más grande.
+ 
+14.         Se toman muestras de agua del Riachuelo. Estas muestras tienen los siguientes datos: temperatura (entre 0 y 100) y pH (entre 0 y 14). Se debe calcular y mostrar el promedio de las temperaturas y el mayor pH detectado. La cantidad de muestras tomadas se ingresa de antemano.
+ 
+15.         Crear una calculadora con las siguientes operaciones: 1-Suma, 2-Resta, 3-Multiplicación, 4-División, 0-Salir. Pedir la opción, los operandos hasta que se desea salir. Realizar la operación y mostrar el resultado.
+ 
+16.         Leer números hasta que uno sea mayor a cero. Por cada número leído, leer esa cantidad de números y calcular el promedio para esa serie. De todos los promedios determinar y mostrar el mayor de ellos.
+ 
+17.         Leer un  número y mostrar su tabla de multiplicar.
+ 
+18.         Leer 6 números Calcular la suma de los negativos y positivos por separado.
+ 
+19.         Leer dos números y mostrar todos los números entre ellos.
+ 
+20.         Leer un número y mostrar los números pares menores al número ingresado.
+ 
+21.         Mostrar los múltiplos de 3 entre 3 y N, siendo N ingresado por teclado.
+ 
+22.         Dados 10 números enteros introducidos, mostrar la suma de los pares, el número de pares, y la media aritmética de los impares
+ 
+23.         Ingresar 10 número enteros. Calcular y mostrar:
+a.    El máximo de los números que sean múltiplos del primer número ingresado.
+b.    El mínimo de los números pares ingresados.
+c.    El promedio de los números ingresados.
+ 
+24.         Realizar un programa que a partir de una fecha introducida, obtenga la fecha del día siguiente. Leer dia, mes y año.
+ 
+26.         Un laboratorio toma muestras del riachuelo. Se mide la densidad (mayor a cero). La toma de muestra finaliza cuando la densidad es cero. Las muestras se clasifican en 1-Limpio, 2-turbio, 3-Denso, 4-Toxico. También se toma el pH (entre 1 y 14). Se necesita saber el mayor pH registrado y la densidad promedio por tipo.
+ 
+27.         En un laboratorio bioquímico se toman muestras con los siguientes datos:
+- Nro de lote
+- Temperatura
+- Cantidad de células
+ 
+Mostrar:
+- El lote con mayor temperatura
+- La cantidad menor de células registradas
+- La temperatura promedio
+ 
+Notas:
+- Se ingresan hasta que el lote sea cero o menos
+- Un nro de lote no puede ser menor o igual al anterior
+- La cantidad de células no puede ser negativo
+- La temperatura está entre -10 y 40
+ 
+28.         Realizar un programa que dado un conjunto de valores tomados en una encuesta, determine ciertos estimadores que se utilizarán para tomar medidas de control.
+Cada conjunto de datos consta de los siguientes campos: sexo (1-masc.2-fem.), edad (entre 18 y 75), sueldo promedio mensual, nivel de estudio (1-Sin, 2-Primaria, 3-Secundaria, 4-Universitario).
+ 
+Los estimadores son:
+1) Los sueldos promedios por sexo.
+2) En que nivel de estudio se registra el mayor sueldo.
+3) Cuál es la edad media de los encuestados.
+ 
+Consideraciones:
+- Si no informa sueldo, se descarta el conjunto.
+- Validar todos los ingresos.
+- El ingreso de los conjuntos finaliza cuando en sexo se ingresa 0.
+ 
+29.         Para un censo se toman las edades de las personas, el ingreso finaliza con cero.
+            Se necesita saber:
+            a) La máxima edad registrada.
+            b) La mínima edad registrada.
+            c) Cuántas edades están entre 18 y 25.
+            d) El promedio de adultos (mayores a 18).
+ 
+30.         Ingresar los sueldos y legajos de 50 empleados de una empresa. Determinar cuál es el rango de sueldos y mostrar los legajos asociados.
+ 
+31.         Hacer una calculadora para geometría. Esta tiene las opciones de calcular el perímetro, el área y el volumen. Si se selecciona el perímetro o el área se pide seleccionar la figura (triangulo, cuadrado o círculo), se calcula y se muestra el resultado. En cambio si se selecciona volumen se debe pedir seleccionar la figura (cubo, cilindro, o esfera). Según sea la figura y el cálculo deseado pedir los datos necesarios para realizar la operación.
+ 
+32.         Leer un número y determinar si este es primo.
+ 
+33.         Leer un número entero positivo y pasarlo a binario.
+ 
+34.         Leer un número entero positivo y determinar si es o no un palíndromo (capicúa).
+ 
+35.         Leer un número y determinar si es perfecto (Se dice perfecto cuando la suma de sus divisores menos el mismo da dicho número, ejemplo 6=3+2+1).
+ 
+36.         Listar los primeros 5 números perfectos.
+ 
+37.         Buscar los primeros 5 pares de números amigos (Dos números son amigos cuando la suma de los divisores de un número es igual al otro número y viceversa, ejemplo: 220 y 284).
+ 
+38.         Listar los primeros 5 números poderosos. Número poderoso es todo número natural n que cumple que si un primo p es un divisor suyo entonces p2 también lo es. Por ejemplo, el número 36 es un número poderoso ya que los únicos primos que son divisores suyos son 2 y 3 y se cumple que 4 y 9 también son divisores de 36.
+ 
+39.         Leer un número mayor a 5 y mostrar esa cantidad de números de Fibonacci.
+ 
+40.         Un estudio contable debe realizar el balance de uno de sus clientes, para ello recibe un paquete con 100 facturas a contabilizar. De cada factura registran el Subtotal, Impuestos y el total. Para saber que se ingresan bien los datos se debe validar que Total = Subtotal + Impuestos, y volviendo a pedir todos los importes en caso de no cumplir la igualdad. Además por cada factura registran el código de cliente. El estudio debe informar el promedio de ventas y el código de cliente que más compró.
+ 
+41.         Una inmobiliaria tiene 4 tipos de propiedades (1.Casa / 2.PH / 3.Local / 4.Depto). Este negocio necesita saber el valor de toda su cartera, el valor promedio de sus propiedades y el máximo valor. Se dispone que el valor del metro cuadrado es único para todos y es un importe precargado antes de solicitar los datos de las propiedades. El programa necesario debe pedir el tipo de propiedad y los metros cuadrados de la misma, y se irán pidiendo siempre que la cantidad de mt2 sea mayor que 0. El valor de la propiedad se calcula según su tipo: Casa: valorMT2 * metros * 2 PH: valorMT2 * metros * 3 Local: valorMT2 * metros * 5 Depto: valorMT2 * metros / 2
+ 
+42.         Ingresar para un relevamiento de consumo sobre hamburguesas: numero de local, cantidad comida y costo. Se ingresan los datos hasta que la cantidad sea igual o menor a 0. Calcular y mostrar:
+a.    El precio promedio del consumo (cantidad y costo).
+b.    El local con la mayor ventas según el costo.
+ 
+43.         Número malvado: todo número natural cuya expresión en base 2 (binaria) contiene un número par de unos. Por ejemplo, 12 y 15 son números malvados ya que 12=11002 y 15=11112. Determinar y mostrar los primeros n números malvados.
+ 
+44.         Número feliz: todo número natural que cumple que si sumamos los cuadrados de sus dígitos y seguimos el proceso con los resultados obtenidos el resultado final es 1. Por ejemplo, el número 203 es un número feliz ya que 22+02+32=13; 12+32=10; 12+02=1. Determinar y mostrar los primeros n números felices.
+ 
+45.         Número curioso: todo número natural n que cumple que n2 tiene al propio n como última cifra. Por ejemplo, 25 y 36 son números curiosos. Determinar y mostrar los primeros n números curiosos.
+46.         Para las próximas elecciones se les encarga un sistema con el fin de poder contabilizar los resultados. en cada mesa electoral. El presidente de mesa analiza las boletas en los sobres y carga los datos según sea el caso. Si es un voto válido ingresa 1 caso contrario ingresa 0. En el caso de que sea inválido debe ingresar si es blanco (1) o impugnado (0), llevando una cuenta de cuántos son. Y si es válido debe acumular el voto al partido correspondiente, que pueden ser: 1-Partido A, 2-Partido B y 3-Partido C. El presidente termina la carga cuando ingresa un -1 al momento de indicar si es válido o no. Dicho sistema deberá presentar la siguiente información: (Validar todos los datos que sean necesarios)
+            
+            a) De los votos válidos informar el porcentaje de cada partido y quien es el ganador.
+            b) El porcentaje de votos blancos con respecto al general.
+            c) Cuántos votos se escrutaron en total.
+            d) Mostrar el total de votos válidos, blancos e impugnados.
+ 
+ 
+48.         Realizar un juego para adivinar un número. Para ello pedir un número N, y luego ir pidiendo números indicando "mayor" o "menor" según sea mayor o menor con respecto a N. El proceso termina cuando el usuario acierta.
+ 
+50.         Una empresa está necesitando la implementación de un sistema. Esta empresa se dedica a la prestación de servicios de transporte de cargas. Dentro de sus actividades realizan 3 tipos de viajes: corta, media y larga distancia, cada uno con valor distinto por kilómetro, estos valores son precargados al comienzo del sistema y no se modifican. Además se cargan las cantidad mínimas de kilómetros necesarios para dicho tipo de viaje.
+ 
+Se van cargando los viajes indicando el tipo de viaje, junto con el código de cliente, y la cantidad de kilómetros recorridos (esta cantidad tiene que ser mayor al mínimo necesario según el tipo de viaje). Los viajes se cargan mientras el código del clientes sean mayor a cero.
+ 
+El gerente está necesitando los siguientes datos:
+a) El promedio de kilómetros por tipo de viaje.
+b) El cliente con el servicio prestado de mayor importe.
+c) Los kilómetros totales recorridos.
+d) El importe total facturado.
+ 
+51.         Realizar un programa que simula una calculadora con los siguientes operaciones:
++  -  /   *
+Se usa de la siguiente manera:
+Se ingresa operador y luego el segundo operando.
+El primer operando es el resultado anterior.
+ 
+Además tiene la opción de acumular en memoria al seleccionar para luego tener la opción de mostrar el promedio.
+            
+Otras operaciones :    
+C barra Memoria Actual
+CA Barra memoria actual y datos para promedio.  (memoria activa)
+ 
+52.         La nave espacial Viajera está procesando los datos para realizar su próximo salto al hiperespacio. Para ello nos están pidiendo que le desarrollemos un sistema en el menor tiempo posible puesto que estan por ser atacados.
+ 
+Al sistema le van a dar la información de los puntos intermedios que existen desde donde se encuentran hasta la posicion final del salto. Por cada punto se ingresa su distancia y nivel de peligrosidad de pasar por el.
+ 
+Los puntos son cargados en orden de distancia (condición que se debe validar).
+ 
+Estos puntos se terminan de cargar cuando la distancia es menor o igual a cero.
+            
+La nave cuenta con una determinada cantidad de combustible que se ingresa al comienzo de la ejecución del sistema.
+ 
+En cada punto que se decide parar se vuelve a reestablecer la cantidad de combustible (recarga).
+ 
+Para parar en un punto se debe considerar el consumo de combustible hasta ese punto. Si no se llega al próximo se debe parar, si se llega al próximo, se detendrá la nave si el nivel de peligrosidad es menor al 20%.
+            
+El consumo de combustible es el doble de la distancia recorrida.
+            
+Mostrar al final en cuantos puntos se deben parar, la distancia total recorrida, y el combustible consumido.
+ 
+54.         En una elección se cargan documento hasta que uno sea menor o igual a cero.
+Cada documento asocia los votos que esa persona puede aportar
+a) ¿Cuál es el promedio de votos por persona?
+b) ¿Qué persona tiene la mayor cantidad de votos?
+ 
+55.         
+
+
+
+1.- Elaborar un programa que permita introducir dos números por el teclado y mediante un menú que calcule su suma, su producto, su resta, su división y módulo.
+ 
+2.- Introducir por el teclado V o H e imprimir Varón o Hembra.
+ 
+3.- Elaborar el ejercicio #12 de if utilizando switch case.
+ 
+4.- Elaborar un programa que realice la opción seleccionada de acuerdo a lo siguiente:
+ 
+a.- Área de triángulo
+ 
+b.- Área de Cuadrado
+ 
+c.- Área de Circulo
+ 
+d.- Área de Rectángulo
+ 
+5.- Elaborar un programa que lea una letra y determine si es vocal, semivocal o consonante.
+ 
+6.- Elaborar un programa que lea una letra mayúscula e imprima la letra y si ésta es recta (A,E,F,H,I,K,L,M,N,T,V,W,X,Y,Z), es curva (C,O,S,U,Q) o curva y recta (B,D,G,J,P,R).
+ 
+7.- En el juego para dos personas llamado "ROCA, PAPEL Y TIJERAS" cada jugador escoge ser "T", "R" o "P" respectivamente. El jugador se determina así: roca rompe tijeras, las tijeras cortan el papel, el papel cubre la roca, el juego es un empate si ambos jugadores eligen la misma opción. Elaborar un programa para que determine cuál jugador gana, la salida debe mostrarse de la siguiente forma: "T-R Roca rompe tijeras gana el jugador 2".
+ 
+8.-Una empresa desea calcular la productividad de un mes dado, esta se calcula como sigue:
+ 
+Enero, Febrero y Marzo tienen factor 15
+ 
+Abril, Mayo y Junio tienen factor 17
+ 
+Septiembre, Octubre y Noviembre tienen factor 20
+ 
+Diciembre tiene factor 21
+ 
+Se pide elaborar un programa que permita solicitar al usuario un mes cualquiera y se calcule la productividad si se sabe que ésta es igual al número de artículos producidos en el mes multiplicado por el factor del mes que corresponda al mes proporcionado. Se conoce la cantidad de artículos producidos y el mes.
+ 
+9.- Se conocen las calificaciones (A,B,C,D,E) y el número de créditos que corresponde a cada una de los 2 cursos que toma el alumno Juan Pérez. Elaborar un programa que calcule el promedio de las calificaciones de este alumno donde A vale 4 puntos, B = 3, C = 2, D = 1 y E = 0. Así la contribución de una A en un curso de 3 créditos es 4*3 =12, mientras que la contribución de una C en un curso de 4 créditos es 2*4=8.
+ 
+10.- Una empresa clasifica a sus empleados en dos grupos de empleados, los del grupo 1 son aquellos que laboran dentro de la misma y desea darles un aumento de sueldo siguiendo el siguiente criterio: si el empleado trabajó más de 40 horas, su sueldo será incrementado en $50.00, si el empleado es mujer o es mayor de 25 años y tiene en la empresa más de 30 años su sueldo se incrementará en $800.00 y si no cumple con estas condiciones solo se incrementa en $100.00 (esto último es independiente de las horas trabajadas), Para los empleados del grupo 2 (los que aspiran a ingresar a la empresa)si es mayor de 18 años y tiene más de 85 puntos en una prueba presentada entonces será contratado. Elaborar un programa para determinar el sueldo en el caso de los empleados del grupo 1 y si será o no contratado en el caso de los del grupo 2.
+
+
+3) pedir el día, mes y año e indicar si es una fecha válida
+ a) Suponiendo que todos los meses tienen 30 días
+ b) Tomando las longitudes de meses reales
+            31 días: 1 Enero- 3 Marzo- 5 Mayo- 7 Julio- 8 Agosto-10 Octubre-12 Diciembre
+ 
+4) Pedir un número de 5 cifras (validarlo), determinar si es capicúa
+    (TIP: operador %)
+ 
+5) Pedir 4 números, calcular y mostrar la diferencia entre el mayor y el menor.
+ 
+ 
+ 
+10) Hacer un algoritmo que tome el peso en libras de una cantidad de ropa a lavar en una lavadora y nos devuelva el nivel dependiendo del peso; además nos informe la cantidad de litros de agua que necesitamos. Se sabe que con más de 30 libras la lavadora no funcionará ya que es demasiado peso. Si la ropa pesa 22 ó más libras, el nivel será de máximo; si pesa 15 ó más nivel será de alto; si pesa 8 ó más será un nivel medio o de lo contrario el nivel será mínimo.
+ 
+11) Martha va a realizar su fiesta de quince años. Por lo cual ha invitado a una gran cantidad de personas. Pero también ha decidido algunas reglas:
+Que todas las personas con edades mayores a los quince años, sólo pueden entrar si traen regalos; que jóvenes con los quince años cumplidos entra totalmente gratis pero los de menos de quince años no pueden entrar a la fiesta. Hacer un algoritmo donde se tome la edad de una persona y que requisito de los anteriores le toca cumplir si quiere entrar.
+ 
+12) El ejército nacional ha decidido hacer una jornada de ventas de libretas militares para muchos hombres que no han definido su situación militar u otros que no son aptos para prestar el servicio. Además de la edad de joven, se tendrá en cuenta el nivel del sisben de la persona. Para todos los hombres mayores de 18 años la libreta tendrá un costo de $350000 pero para aquellos que tengan nivel 1, se les hará un descuento del 40%; para los de nivel 2, el descuento será del 30%; para nivel 3 del 15%; y para los demás estratos o niveles no habrá descuento. Para los jóvenes con los 18 años la libreta tiene un costo de $200000 y los jóvenes con nivel del sisben 1, tendrán un descuento del 60%; para los de nivel 2, descuento del 40%, para los del 3, un descuento del 20% y para los demás estratos no habrá descuento. Hacer un algoritmo que tome la edad y el nivel del sisben de un hombre y nos muestre descuento que le hacen y su valor final a pagar.
+
+
+
+
+1) Un transportista desea saber cuanto consume en promedio en sus viaje por el país. Además necesita conocer cual de sus  viajes fue el más largo y el promedio de consumo de combustible.
+Para ello carga al sistema los siguiente datos: km recorridos y  combustible (por cada viaje).
+La carga finaliza cuando los km es cero.
+2) Realizar un programa que lea registro con los siguiente datos:
+Nombre - Edad - Altura - Peso - Origen (1-Argentino, 2-Extranjero)
+La carga finaliza con la edad <= 0.
+Calcular y mostrar la siguiente información:
+1) La cantidad de Argentinos y Extranjeros.
+2) El Argentino con mayor edad.
+3) El promedio de peso.
+4) El nombre de la persona más alta.
+3) Una empresa debe realizar el inventario, para ello recibe una lista con 100 facturas a contabilizar. De cada renglón de la lista se informan el código de artículo, la cantidad y el costo. La empresa debe informar el valor total del inventario y el artículo con costo más caro.
+4) Se ha realizado un relevamiento sobre el procesador de texto más utilizado: número  identificatorio (1-Word, 2-LibreWriter y 3-LaTeX), cantidad de documentos creados, tiempo que usan el procesador por día. Se ingresan los datos hasta que el identificador sea igual o menor a 0. Calcular y mostrar:
+a.    Dado un procesador determinado (ingresado por teclado), cuál es el promedio de documentos creados para ese procesador.
+               b.            El procesador con mayor tiempo dedicado.
+5) Una encuestadora debe realizar el sondeo de consumo de un determinado producto, para ello recibe un sobre con 100 encuestas a procesar. En cada encuesta se informan el código de producto (entre 1 y 50), el nivel de satisfacción (entre 0 y 10) y el costo. La encuestadora debe informar el promedio general de satisfacción y dado un código de artículo leído previamente informar su promedio general con su mayor costo.
+6) Ingresar para un análisis de consumo de: tipo de gaseosa (1-Cola, 2-Naranja, 4-Otras), litros consumidos por semana. Se ingresan los datos hasta que el tipo de gaseosa sea igual o menor a 0. Calcular y mostrar:
+                               a.            El promedio general de gaseosa consumida.
+                               b.            El tipo de gaseosa con mayor consumo.
+8) En una elección se cargan documento hasta que uno sea menor o igual a cero. A cada documento se asocian los votos que esa persona puede aportar
+               a) ¿Cuál es el promedio de votos por persona?
+               b) ¿Qué persona tiene la mayor cantidad de votos?
+
+
+
+
+1)      Una ciudad se divide en tres zonas: 1, 2 y 3. En la zona 1, el metro cuadrado se cotiza a $1000. En la zona 2, se cotiza a $900, y en la zona 3 a $700. Una vez calculada la cotizacion, si esta supera el monto de $80000, se le aplica un 2% de impuesto para obtener el precio final del inmueble. Obtener el precio final de un inmueble si se ingresan la zona y la superficie del mismo.
+ 
+2)      Dada el peso, la altura y el sexo, de unos estudiantes. Determinar la cantidad de vitaminas que deben consumir estos estudiantes, en base al siguiente criterio:
+“Si son varones, y su estatura es mayor a 1.60, y su peso es mayor o igual a 150 lb, su dosis, serán: 20% de la estatura y 80% de su peso. De lo contrario, la dosis será la siguiente: 30% de la estatura y 70% de su peso. Si son mujeres, y  su estatura es mayor de a 1.50 m y su peso es mayor o igual a 130 lb, su dosis será: 25% de la estatura y 75% de su peso. De lo contrario, la dosis será: 35% de la estatura y 65% de su peso. La dosis debe ser expresada en gramos.”
+ 
+5)      Leer número enteros mientras sean mayores a cero, calcular si es posible el promedio de los números ingresado.
+6)      Leer un número mientras que sean distintos de cero, de los ingresados determinar el mayor y menor número ingresado.
+ 
+
+
+1)    Leer 10 números y guardarlos en un vector, leer otros 10 números y guardarlos en otro vector. Generar un tercer vector con la intercalación de los 2 anteriores.
+2)    Leer un vector de 10 números e invertir el mismo.
+3)    Leer un vector de 10 números y ordenarlo de mayor a menor.
+4)    Cómo cambia el 6) para que quede de menor a mayor?
+5)    Para investigar: Hacer una función que recibe un vector y retorne la suma de sus elementos.
+
+
+En una empresa se guardan los datos legajos de los empleados con los siguientes datos: nombre, edad y sueldo.
+Realizar un programa que:
+1) Lea 10 legajos
+2) Muestra todos ordenados por sueldos
+3) Muestre el empleado con mayor edad
+4) Lea un legajo completo y verificar que los datos estén en el vector.
+5) Pida una edad y generar un nuevo vector con los legajos que superen esa edad.
+6) Calcule y muestre el promedio de sueldos.
+ 
+Usar: Estructuras, al menos 4 funciones y punteros.
+
+
+Programar un juego de apuestas de mayor-menor.
+
+
+4) Leer el número de mes y mostrar cuántos días tiene ese mes (año actual) (TE 10’)
+
+5) Una empresa desea conocer el total de sueldos de sus empleados. Si el último sueldo viene cargado con 0, mostrar dicho total (TE: 15’)
+
+6) Ingresar números hasta que el último sea cero. Calcular la cantidad de positivos. (TE 15’)
+
+7) Ingresar 10 números mayores a 3 y menores a 8. Mostrar el valor ingresado en número y letras. (TE 17’)
+
+8) Se ingresa la altura de N participantes de un grupo de voley. Mostrar la altura máxima (TE 15’)
+
+9) Escribir un programa que sume los números comprendidos entre 1 y el valor que se introduzca por teclado. (TE 10’)
+
+10) Realizar una función  que indique entre dos números cuál es el mayor. Generar un programa que muestre su funcionamiento. (TE 15’)
+
+11) Hacer una función   que dada una hora representada por tres números, hora, minutos y segundos devuelve el número total de segundos. (TE 15’)
+
+12) Escribir una función que calcule el valor del término de la sucesión de Fibonacci correspondiente a un número entero determinado. (TE 20’)
+    a(1) = 1
+    a(2) = 1
+    a(3) = 2
+    a(4) = 3
+    a(5) = 5
+    a(6) = 8
+    a(7) = 13
+    a(8) = 21
+    ...
+    a(n) = a(n - 1) + a(n - 2)
+
+
+
+
+EXTRA Para casa:
+Realizar una calculadora básica tipo "almacenero"
+La misma funciona de la siguiente manera:
+a) pide un numero
+b) pide una operación (suma, resta, multiplicación, división, limpiar memoria, finalizar)
+c) al valor que tiene almacenado previamente (inicialmente en cero) le aplica la operación seleccionada usando el número ingresado como 2do operando.
+Si selecciona limpiar memoria debe poner el cero dicho valor, y si selecciona finalizar, sale del programa.
+
+Ejemplo de ejecución:
+Ingrese numero: 5
+Operacion: 1     (suma)
+resultado: 5     (0 + 5)
+Ingrese numero: 10
+Operacion: 2     (resta)
+resultado: -5    (5 - 10)
+Ingrese numero: 20
+Operacion: 1     (suma)
+resultado: 15    (-5 + 20)
+Ingree numero: 3
+Operacion: 4     (division)
+resultado: 5     ( 15 / 3 )
+
+
+
+Una empresa necesita informatizar su sistema de atención al cliente.
+Dicho sistema debe funcionar manteniendo un encuesta de satisfacción, donde se le preguntará sobre varios ítems a los encuestados.
+Soporte: 0-Pésimo, 1-Malo, 2-Regular, 3-Bueno, 4-Muy Bueno, 5 Excelente
+Venta: 0-Pésimo, 1-Malo, 2-Regular, 3-Bueno, 4-Muy Bueno, 5 Excelente
+Sistema: 0-Pésimo, 1-Malo, 2-Regular, 3-Bueno, 4-Muy Bueno, 5 Excelente
+Se encuentran a 50 personas al azar y se le preguntan sobre los 3 ítems.
+Al finalizar la encuesta en necesario realizar un análisis en profundidad de los datos recolectados.
+En qué estado se encuentra cada uno de los sectores (el mejor y el peor).
+Cuál es el calificación general de la empresa.
+
+
+
+1)      Realizar un juego para adivinar un número.  Para ello la computadora genera un  número N al azar, y luego ir pidiendo  al usuario números indicando “mayor” o “menor” según sea mayor o menor con respecto a N. El proceso termina  cuando el usuario acierta o supera la cantidad de 5 posibilidades.
+ 
+2)      El Gobierno de una provincia quiere hacer un estudio de hábitos de consumo de
+alcohol y bebida entre la juventud . Para ello, ha escogido una ciudad de la provincia
+donde llevará  a cabo la consulta, para ello se recogerá el número de litros consumidos durante el mes pasado de los 5 tipos de bebidas nombrados a continuación:
+ 
+Tipos De Bebidas
+ 
+0. Naturales: agua, leche, zumos, mostos, infusiones, ...
+1. Gaseosas
+2. Vinos
+3. Cervezas
+            4. Otros: licores,  whiskis, ginebra, fernet, etc
+ 
+a. Almacena la información en un array, sobre los litros consumidos de los tipos de       bebidas mencionados (generar al azar un valor para cada uno (0-1000)
+b. Determina el “tipo de bebida” más consumida entre los jóvenes
+c. De los “tipos de bebidas” con alcohol, ¿cuál es el más consumido?
+d. Indicar cantidad total de bebidas con alcohol y sin alcohol consumidas
+ 
+ 
+3)      Una emisora de radio quiere hacer un concurso en el que proponen a sus
+          Oyentes los títulos de 10 canciones, a las que ha numerado del 0 al 9. Cada participante debe llamar para dar los números de 3 títulos por orden de preferencia decreciente.
+Se le dan 3 puntos a la canción que el oyente nombra en 1er lugar, 2 puntos
+a la que indica en 2º lugar y 1 punto a la 3ª.
+Se pide hacer un programa que realice las siguientes tareas:
+ Leer y almacenar los votos emitidos por cada oyente, suponemos que
+como máximo pueden concursar 20 oyentes.
+La entrada de datos se realizará en forma de tríos, con los números de
+las canciones que vota cada oyente.
+Se pide determinar:
+a. El tema  mas  votado
+b. Tema   menos votado
+c. cantidad de temas que superan los 20 puntos.
+ 
+4)    En la estación de servicio SUPER  nos han pedido que realicemos un estudio sobre el uso de los distintos surtidores de combustible a lo largo de una día En la estación hay 4 surtidores que cada noche se rellenan a 5000 litros y se los numera del 0 al 3
+0-super /1-nafta común /2-diesel  /3-diesel especial.
+Se tendrá como dato la cantidad vendida de cada uno de ellos (pedirla como dato de ingreso). Se pide calcular:
+-          Que tipo de combustible tiene la mayor venta
+-          Que tipo de combustible tiene la menor venta
+-          Cuanto nos queda de combustible en cada tanque al final del día
+-          Cual es el tipo de combustible más consumido? Nafta o diesel
+
+ 
+ 
+ 
+ 
+ 
+Instrucción: if
+ 
+9)                  Generar 1 número aleatorio entre 1 y 5, almacenarlo en la variable “num”. Luego generar tantos números aleatorios como contenga “num” y calcular el promedio.
+ 
+10)              Leer desde teclado un número entero, si dicho número es menor a 100 generar un número aleatorio real entre 10 y 50, y mostrarlo. En cambio si no es menor a 100 generar un número aleatorio entero entre 1 y 20.
+ 
+11)              Un obrero necesita calcular su salario semanal, el cual se obtiene de la siguiente manera (leer la cantidad de horas trabajadas): Si trabaja 40 horas o menos se le paga $16 por hora Si trabaja más de 40 horas se le paga $16 por cada una de las primeras 40 horas y $20 por cada hora extra.
+ 
+12)              Pedir una nota entre 0 y 10, y mostrar en forma de palabras:
+     * de 0 a 4: insuficiente
+     * 5: suficiente
+     * 6: bien
+     * 7 y 8: notable
+     * 9: sobresaliente
+     * 10: excelente
+ 
+13)              Pedir el día, mes y año e indicar si es una fecha valida (Leerlos como números)
+a.      Suponiendo que todos los meses tienen 30 días
+b.      Tomando las longitudes de meses reales
+                                    31 días: 1 Enero- 3 Marzo- 5 Mayo- 7 Julio- 8 Agosto-10 Octubre-12 Diciembre
+                                   30 días: 4 Abril – 6 Junio – 9 Septiembre – 11 Noviembre
+                                   28 días: 2 Febrero año no bisiesto
+                                   29 días: 2 Febrero año bisiesto
+ 
+14)              Pedir un numero de 5 cifras (validarlo), determinar si es capicúa
+(TIP: operador %)
+ 
+15)              Pedir 4 números, calcular y mostrar la diferencia entre el mayor y el menor.
+ 
+16)              Pedir la fecha de nacimiento (día, mes y año) y determinar el signo del zodíaco.
+1- Capricornio: enero 21 / febrero 16
+2- Acuario: febrero 17 / marzo 12
+3- Piscis: marzo 13 / abril 18
+4- Aries: abril 19 / mayo 14
+5- Tauro: mayo 15 / junio 21
+6- Géminis: junio 22 / julio 20
+7- Cáncer: julio 21 / agosto 10
+8- Leo: agosto 11 / septiembre 16
+9- Virgo: septiembre 17 / octubre 31
+10- Libra: noviembre 1 / noviembre 23
+11- Escorpio: noviembre 24 / noviembre 29
+12- Ofiuco: noviembre 30 / diciembre 18
+13- Sagitario: diciembre 19 / enero 20
+ 
+17)              Un postulante a un empleo, realiza un test de capacitación, se obtuvo la siguiente información: cantidad total de preguntas que se le realizaron y la cantidad de preguntas que contestó correctamente. Se pide confeccionar un programa que ingrese los dos datos por teclado e informe el nivel del mismo según el porcentaje de respuestas correctas que ha obtenido, y sabiendo que:
+            Nivel máximo:                        Porcentaje>=90%.
+            Nivel medio:               Porcentaje>=75% y <90%.
+            Nivel regular:             Porcentaje>=50% y <75%.
+            Fuera de nivel:           Porcentaje<50%.
+ 
+18)              Construir un programa que calcule el índice de masa corporal de una persona (IMC = peso [kg] / altura2 [m]) e indique el estado en el que se encuentra esa persona en función del valor de IMC:
+Valor de IMC        Diagnóstico
+ < 16               Criterio de ingreso en hospital
+ de 16 a 17     infrapeso
+ de 17 a 18     bajo peso
+ de 18 a 25     peso normal (saludable)
+ de 25 a 30     sobrepeso (obesidad de grado I)
+ de 30 a 35     sobrepeso crónico (obesidad de grado II)
+ de 35 a 40     obesidad premórbida (obesidad de grado III)
+ >40                obesidad mórbida (obesidad de grado IV)
+ 
+19)              Construir un programa que calcule y muestre por pantalla las raíces de la ecuación de segundo grado de coeficientes reales ( ). El programa debe diferenciar los diferentes casos que puedan surgir: la existencia de dos raíces reales distintas, de dos raíces reales iguales y de dos raíces complejas.  
+Nota: se recomienda el empleo de sentencias if–else anidadas.
+ 
+20)              Hacer un algoritmo que tome el peso en libras de una cantidad de ropa a lavar en una lavadora y nos devuelva el nivel dependiendo del peso; además nos informe la cantidad de litros de agua que necesitamos. Se sabe que con más de 30 libras la lavadora no funcionara ya que es demasiado peso. Si la ropa pesa 22 ó más libras, el nivel será de máximo; si pesa 15 o más nivel será de alto; si pesa 8 ó más será un nivel medio o de lo contrario el nivel será mínimo. La cantidad de litros de agua necesaria es el 25% del peso de la ropa.
+ 
+
+25)              Que pida un número del 1 al 7 y diga el día de la semana correspondiente
+ 
+26)              Que pida un número del 1 al 12 y diga el nombre del mes correspondiente
+ 
+27)              Que pida una letra y detecte si es una vocal.
+ 
+28)              Que muestre un menú donde las opciones sean “Equilátero”, “Isósceles” y “Escaleno”, pida una opción y calcule el perímetro del triángulo seleccionado
+ 
+29)              Que pase de Kg a otra unidad de medida de masa, mostrar en pantalla un menú con las opciones posibles (Gramos, miligramos, decigramos, centigramos)
+ 
+30)              Una ciudad se divide en tres zonas: 1, 2 y 3. En la zona 1, el metro cuadrado se cotiza a $1000. En la zona 2, se cotiza a $900, y en la zona 3 a $700. Una vez calculada la cotización, si esta supera el monto de $80000, se le aplica un 2% de impuesto para obtener el precio final del inmueble. Obtener el precio final de un inmueble si se ingresan la zona y la superficie del mismo.
+ 
+31)              Dada el peso, la altura y el sexo, de unos estudiantes. Determinar la cantidad de vitaminas que deben consumir estos estudiantes, en base al siguiente criterio:
+ 
+“Si son varones, y su estatura es mayor a 1.60, y su peso es mayor o igual a 150 lb, su dosis, serán: 20% de la estatura y 80% de su peso. De lo contrario, la dosis será la siguiente: 30% de la estatura y 70% de su peso. Si son mujeres, y  su estatura es mayor de a 1.50 m y su peso es mayor o igual a 130 lb, su dosis será: 25% de la estatura y 75% de su peso. De lo contrario, la dosis será: 35% de la estatura y 65% de su peso. La dosis debe ser expresada en gramos.”
+ 
+ 
+ 
+ 
+Instrucción: for
+ 
+40)              Leer 10 Números y mostrar la suma de ellos
+ 
+41)              Leer 10 Números y mostrar el mayor de ellos
+ 
+42)              Escribir un programa que sume los números comprendidos entre 1 y el valor que se introduzca por teclado
+ 
+43)              Se ingresa la altura (en metros) de N participantes de un grupo de voley. Mostrar la altura máxima
+ 
+44)              Una empresa debe realizar el inventario, para ello recibe una lista con 100 facturas a contabilizar. De cada renglón de la lista se informan el código de artículo, la cantidad y el costo. La empresa debe informar el valor total del inventario y el artículo con costo más caro.
+ 
+45)              Se leen 25 números entre 0 y 1 que representan la calidad del suelo, cada valor se asocia a un código estudio (mayor a cero)
+      a) ¿Cuál estudio tiene la mayor calidad de suelo?
+      b) De los mayores a 0.5, ¿cuál es su promedio?
+ 
+46)              Generar al azar 20 números en el intervalo (0-100), imprimir la cantidad de ceros que salieron
+ 
+47)              Generar 100 números al azar y verificar la cantidad que salieron entre 0 y 25, la cantidad entre 25 y 50, la cantidad entre 50 y 75 y la cantidad entre 75 y 100.
+ 
+48)              Dados n números enteros, calcular el menor de ellos.
+ 
+49)              Dado el sueldo de n personas, se pide obtener:
+a.      la cantidad de desocupados, la cantidad que cobran hasta 500$, la cantidad que cobran entre 500 y 1000, la cantidad entre 1000 y 2000, y los que superan los 2000
+b.      el sueldo máximo y el nombre de la persona de sueldo máximo
+c.       total de sueldos pagados
+ 
+50)              Dados n números enteros calcular el rango. Rango: es la diferencia entre el número mayor y el menor.
+51)         Ingresar 100 número enteros. Calcular y mostrar:
+a. El máximo de los números que sean múltiplos del primer número ingresado.
+b. La suma de los números pares.
+c. El promedio de los números ingresados.
+ 
+52)              (TE 20’) Escribir un programa que calcule el valor del término de la sucesión de Fibonacci correspondiente a un número entero determinado.
+            a(1) = 1
+            a(2) = 1
+            a(3) = 2
+            a(4) = 3
+            a(5) = 5
+            a(6) = 8
+            a(7) = 13
+            ...
+            a(n) = a(n - 1) + a(n - 2)
+ 
+Instrucción: while
+53)              (TE 15’) Una empresa desea conocer el total de sueldos de sus empleados. Si el último sueldo viene cargado con 0, mostrar dicho total.
+ 
+54)              (TE 15’) Ingresar números hasta que el último sea cero. Calcular la cantidad de positivos.
+ 
+55)              Leer número enteros mientras sean mayores a cero, calcular si es posible el promedio de los números ingresado.
+ 
+56)              Leer número mientras que sean distintos de cero, de los ingresados determinar el mayor y menor número ingresado.
+ 
+57)              Se leen de a 3 que representan datos estadísticos, el ingreso de datos finaliza cuando los 2 primeros números de la  terna son ambos 0. Al finalizar el sistema debe determinar y mostrar el mayor de los promedios de las ternas ingresadas. Y la menor suma de valores de ternas.
+ 
+58)              Un transportista desea saber cuándo consume en promedio en sus viajes por el país. Además necesita conocer cuál de sus  viajes fue el más largo y el promedio de consumo de combustible. Para ello carga al sistema los siguientes datos: km recorridos y  combustible (por cada viaje). La carga finaliza cuando los km es cero.
+ 
+59)              En una elección se cargan documento hasta que uno sea menor o igual a cero. A cada documento se asocian los votos que esa persona puede aportar
+a) ¿Cuál es el promedio de votos por persona?
+                        b) ¿Qué persona tiene la mayor cantidad de votos?
+ 
+60)              Una encuestadora debe realizar el sondeo de consumo de un determinado producto, para ello recibe un sobre con 100 encuestas a procesar. En cada encuesta se informan el código de producto (entre 1 y 50), el nivel de satisfacción (entre 0 y 10) y el costo. La encuestadora debe informar el promedio general de satisfacción y dado un código de artículo leído previamente informar su promedio general con su mayor costo.
+ 
+61)              Ingresar para un análisis de consumo de: tipo de gaseosa (1-Cola, 2-Naranja, 4-Otras), litros consumidos por semana. Se ingresan los datos hasta que el tipo de gaseosa sea igual o menor a 0. Calcular y mostrar:
+                        a.    El promedio general de gaseosa consumida.
+                        b.    El tipo de gaseosa con mayor consumo.
+ 
+62)              Realizar un programa que lea registro con los siguientes datos:
+Nombre - Edad - Altura - Peso - Origen (1-Argentino, 2-Extranjero)
+La carga finaliza con la edad <= 0.
+Calcular y mostrar la siguiente información:
+1) La cantidad de argentinos y Extranjeros.
+2) El argentino con mayor edad.
+3) El promedio de peso.
+4) El nombre de la persona más alta.
+ 
+63)              Se ha realizado un relevamiento sobre el procesador de texto más utilizado: número  identificatorio (1-Word, 2-LibreWriter y 3-LaTeX), cantidad de documentos creados, tiempo que usan el procesador por día. Se ingresan los datos hasta que el identificador sea igual o menor a 0. Calcular y mostrar:
+a.      Dado un procesador determinado (ingresado por teclado), cuál es el promedio de documentos creados para ese procesador.
+b.      El procesador con mayor tiempo dedicado.
+ 
+64)              Realizar una calculadora básica tipo "almacenero"
+La misma funciona de la siguiente manera:
+a) pide un número
+b) pide una operación (suma, resta, multiplicación, división, limpiar memoria, finalizar)
+c) al valor que tiene almacenado previamente (inicialmente en cero) le aplica la operación seleccionada usando el número ingresado como 2do operando.
+Si selecciona limpiar memoria debe poner el cero dicho valor, y si selecciona finalizar, sale del programa.
+ 
+Ejemplo de ejecución:
+Ingrese numero: 5
+Operación: 1 (suma)
+resultado: 5    (0 + 5)
+Ingrese numero: 10
+Operación: 2 (resta)
+resultado: -5   (5 - 10)
+Ingrese numero: 20
+Operación: 1 (suma)
+resultado: 15  (-5 + 20)
+Ingrese numero: 3
+Operación: 4 (división)
+resultado: 5    ( 15 / 3 )
+ 
+ 
+Funciones
+ 1)    Crear una función que devuelva un valor menor al argumento que recibe dicha función. Y programar un ejemplo del mismo.
+2)    Crear una función que reciba 2 números y devuelve el promedio.
+3)    Crear una función que reciba 3 números y muestre el mayor.
+
+
+
+
+Una empresa necesita de diestros programadores los cuales deben solucionar un problema que tienen para mantener su cartera de clientes. Ellos han observados que los clientes al llamar para realizar un pedido no le pasan todos sus datos a la recepcionista, y luego el vendedor no sabe bien que datos faltan porque están en la planilla de la recepcionista. Entonces pensaron en un mecanismo para solventar la situacion. La recepcionista carga los datos (los que puede, porque se distrae facilmente) y los vuelca al sistema, entonces no siempre vuelca todos los datos, a veces se olvida de alguno, pero sí le dice al cliente que código le tocó. Luego el vendedor le pregunta el código al cliente y con ello trae los datos que pudo cargar la recepcionista y si falta alguno el vendedor lo completa y en una descripcion anota lo que necesita el cliente.
+Los datos de los clientes son: codigo (automatico por el programa), nombre, apellido, telefono, email.
+A lo sumo se van a cargar 20 registros.
+Al final del dia, los jefes sacan un listado de los clientes cargados.
+ 
+ 
+
+ 
+ 
+De integración
+ 
+66)              Se tiene un archivo con la siguiente estructura: edad , nombre , peso
+Se necesita hacer un programa que cargue todos los datos en un vector. Luego de tenerlo en un vector, calcular el promedio de edad y la persona con mayor peso.
+ 
+Ejemplo del archivo:
+23,Pepe,66
+41,Juan,72
+  
+ 
+
+
+AÚN SIN ACOMODAR (PUEDEN ESTAR REPETIDOS)
+ 
+1. Realizar un programa que lea tres números enteros y los muestre ordenados de menor a mayor.
+2. Se leen números mientras estos sean múltiplos de 2, se pide calcular el menor de ellos y el promedio.
+3. Se ingresa por teclado un número, el cuál debe estar entre 2 y 10. Luego se leen tantos números reales como el número ingresado. De los números reales ingresados determinar: el mayor, menor y cuántos son múltiplos de 3.
+
+ 
+1.    Leer 2 números y determinar si el primero es mayor al promedio de ambos.
+ 
+2.            Leer un número si es 1 pedir 2 números y mostrar la suma, sino pedir un número y mostrar el cuadrado.
+ 
+3.            Leer 5 números y mostrar el promedio (usando while).
+ 
+4.            Leer 10 números y mostrar el mayor de ellos (usando while).
+ 
+5.            Leer 5 pares de números, calcular y mostrar la suma de los primeros de cada par y el mayor de los segundos.
+ 
+6.            Leer 10 números, si la suma acumulada supera los 50 sumar en otra variable
+ 
+7.            Que pida un número del 1 al 7 y diga el día de la semana correspondiente
+ 
+8.            Que pida un número del 1 al 12 y diga el nombre del mes correspondiente
+ 
+9.            Que pida una letra y detecte si es una vocal.
+ 
+10.         Que muestre un menú donde las opciones sean “Equilátero”, “Isósceles” y “Escaleno”, pida una opción y calcule el perímetro del triángulo seleccionado
+ 
+11.         Que pase de Kg a otra unidad de medida de masa, mostrar en pantalla un menú con las opciones posibles (Gramos, miligramos, decigramos, centigramos)
+ 
+12.         Se censan a personas. El ingreso finaliza cuando la edad es 0. Calcular y mostrar la edad promedio. La edad no puede ser negativa.
+ 
+13.         Leer desde teclado registro con los siguientes campos altura, peso, edad, nacimiento, nro. calzado. El ingreso finaliza con altura <= 0
+ 
+Determinar y mostrar los siguientes registros:
+1) El de mayor altura
+2) el de menos peso
+3) el que tenga el nro de calzado más grande.
+ 
+14.         Se toman muestras de agua del Riachuelo. Estas muestras tienen los siguientes datos: temperatura (entre 0 y 100) y pH (entre 0 y 14). Se debe calcular y mostrar el promedio de las temperaturas y el mayor pH detectado. La cantidad de muestras tomadas se ingresa de antemano.
+ 
+15.         Crear una calculadora con las siguientes operaciones: 1-Suma, 2-Resta, 3-Multiplicación, 4-División, 0-Salir. Pedir la opción, los operandos hasta que se desea salir. Realizar la operación y mostrar el resultado.
+ 
+16.         Leer números hasta que uno sea mayor a cero. Por cada número leído, leer esa cantidad de números y calcular el promedio para esa serie. De todos los promedios determinar y mostrar el mayor de ellos.
+ 
+17.         Leer un  número y mostrar su tabla de multiplicar.
+ 
+18.         Leer 6 números Calcular la suma de los negativos y positivos por separado.
+ 
+19.         Leer dos números y mostrar todos los números entre ellos.
+ 
+20.         Leer un número y mostrar los números pares menores al número ingresado.
+ 
+21.         Mostrar los múltiplos de 3 entre 3 y N, siendo N ingresado por teclado.
+ 
+22.         Dados 10 números enteros introducidos, mostrar la suma de los pares, el número de pares, y la media aritmética de los impares
+ 
+23.         Ingresar 10 número enteros. Calcular y mostrar:
+a.    El máximo de los números que sean múltiplos del primer número ingresado.
+b.    El mínimo de los números pares ingresados.
+c.    El promedio de los números ingresados.
+ 
+24.         Realizar un programa que a partir de una fecha introducida, obtenga la fecha del día siguiente. Leer dia, mes y año.
+ 
+25.         Escribir un programa que acepte tres números por teclado, los ordene de menor a mayor, y los muestre por pantalla.
+ 
+26.         Un laboratorio toma muestras del riachuelo. Se mide la densidad (mayor a cero). La toma de muestra finaliza cuando la densidad es cero. Las muestras se clasifican en 1-Limpio, 2-turbio, 3-Denso, 4-Toxico. También se toma el pH (entre 1 y 14). Se necesita saber el mayor pH registrado y la densidad promedio por tipo.
+ 
+27.         En un laboratorio bioquímico se toman muestras con los siguientes datos:
+- Nro de lote
+- Temperatura
+- Cantidad de células
+ 
+Mostrar:
+- El lote con mayor temperatura
+- La cantidad menor de células registradas
+- La temperatura promedio
+ 
+Notas:
+- Se ingresan hasta que el lote sea cero o menos
+- Un nro de lote no puede ser menor o igual al anterior
+- La cantidad de células no puede ser negativo
+- La temperatura está entre -10 y 40
+ 
+28.         Realizar un programa que dado un conjunto de valores tomados en una encuesta, determine ciertos estimadores que se utilizarán para tomar medidas de control.
+Cada conjunto de datos consta de los siguientes campos: sexo (1-masc.2-fem.), edad (entre 18 y 75), sueldo promedio mensual, nivel de estudio (1-Sin, 2-Primaria, 3-Secundaria, 4-Universitario).
+ 
+Los estimadores son:
+1) Los sueldos promedios por sexo.
+2) En que nivel de estudio se registra el mayor sueldo.
+3) Cuál es la edad media de los encuestados.
+ 
+Consideraciones:
+- Si no informa sueldo, se descarta el conjunto.
+- Validar todos los ingresos.
+- El ingreso de los conjuntos finaliza cuando en sexo se ingresa 0.
+ 
+29.         Para un censo se toman las edades de las personas, el ingreso finaliza con cero.
+            Se necesita saber:
+            a) La máxima edad registrada.
+            b) La mínima edad registrada.
+            c) Cuántas edades están entre 18 y 25.
+            d) El promedio de adultos (mayores a 18).
+ 
+30.         Ingresar los sueldos y legajos de 50 empleados de una empresa. Determinar cuál es el rango de sueldos y mostrar los legajos asociados.
+ 
+31.         Hacer una calculadora para geometría. Esta tiene las opciones de calcular el perímetro, el área y el volumen. Si se selecciona el perímetro o el área se pide seleccionar la figura (triangulo, cuadrado o círculo), se calcula y se muestra el resultado. En cambio si se selecciona volumen se debe pedir seleccionar la figura (cubo, cilindro, o esfera). Según sea la figura y el cálculo deseado pedir los datos necesarios para realizar la operación.
+ 
+32.         Leer un número y determinar si este es primo.
+ 
+33.         Leer un número entero positivo y pasarlo a binario.
+ 
+34.         Leer un número entero positivo y determinar si es o no un palíndromo (capicúa).
+ 
+35.         Leer un número y determinar si es perfecto (Se dice perfecto cuando la suma de sus divisores menos el mismo da dicho número, ejemplo 6=3+2+1).
+ 
+36.         Listar los primeros 5 números perfectos.
+ 
+37.         Buscar los primeros 5 pares de números amigos (Dos números son amigos cuando la suma de los divisores de un número es igual al otro número y viceversa, ejemplo: 220 y 284).
+ 
+38.         Listar los primeros 5 números poderosos. Número poderoso es todo número natural n que cumple que si un primo p es un divisor suyo entonces p2 también lo es. Por ejemplo, el número 36 es un número poderoso ya que los únicos primos que son divisores suyos son 2 y 3 y se cumple que 4 y 9 también son divisores de 36.
+ 
+39.         Leer un número mayor a 5 y mostrar esa cantidad de números de Fibonacci.
+ 
+40.         Un estudio contable debe realizar el balance de uno de sus clientes, para ello recibe un paquete con 100 facturas a contabilizar. De cada factura registran el Subtotal, Impuestos y el total. Para saber que se ingresan bien los datos se debe validar que Total = Subtotal + Impuestos, y volviendo a pedir todos los importes en caso de no cumplir la igualdad. Además por cada factura registran el código de cliente. El estudio debe informar el promedio de ventas y el código de cliente que más compró.
+ 
+41.         Una inmobiliaria tiene 4 tipos de propiedades (1.Casa / 2.PH / 3.Local / 4.Depto). Este negocio necesita saber el valor de toda su cartera, el valor promedio de sus propiedades y el máximo valor. Se dispone que el valor del metro cuadrado es único para todos y es un importe precargado antes de solicitar los datos de las propiedades. El programa necesario debe pedir el tipo de propiedad y los metros cuadrados de la misma, y se irán pidiendo siempre que la cantidad de mt2 sea mayor que 0. El valor de la propiedad se calcula según su tipo: Casa: valorMT2 * metros * 2 PH: valorMT2 * metros * 3 Local: valorMT2 * metros * 5 Depto: valorMT2 * metros / 2
+ 
+42.         Ingresar para un relevamiento de consumo sobre hamburguesas: numero de local, cantidad comida y costo. Se ingresan los datos hasta que la cantidad sea igual o menor a 0. Calcular y mostrar:
+a.    El precio promedio del consumo (cantidad y costo).
+b.    El local con la mayor ventas según el costo.
+ 
+43.         Número malvado: todo número natural cuya expresión en base 2 (binaria) contiene un número par de unos. Por ejemplo, 12 y 15 son números malvados ya que 12=11002 y 15=11112. Determinar y mostrar los primeros n números malvados.
+ 
+44.         Número feliz: todo número natural que cumple que si sumamos los cuadrados de sus dígitos y seguimos el proceso con los resultados obtenidos el resultado final es 1. Por ejemplo, el número 203 es un número feliz ya que 22+02+32=13; 12+32=10; 12+02=1. Determinar y mostrar los primeros n números felices.
+ 
+45.         Número curioso: todo número natural n que cumple que n2 tiene al propio n como última cifra. Por ejemplo, 25 y 36 son números curiosos. Determinar y mostrar los primeros n números curiosos.
+46.         Para las próximas elecciones se les encarga un sistema con el fin de poder contabilizar los resultados. en cada mesa electoral. El presidente de mesa analiza las boletas en los sobres y carga los datos según sea el caso. Si es un voto válido ingresa 1 caso contrario ingresa 0. En el caso de que sea inválido debe ingresar si es blanco (1) o impugnado (0), llevando una cuenta de cuántos son. Y si es válido debe acumular el voto al partido correspondiente, que pueden ser: 1-Partido A, 2-Partido B y 3-Partido C. El presidente termina la carga cuando ingresa un -1 al momento de indicar si es válido o no. Dicho sistema deberá presentar la siguiente información: (Validar todos los datos que sean necesarios)
+            
+            a) De los votos válidos informar el porcentaje de cada partido y quien es el ganador.
+            b) El porcentaje de votos blancos con respecto al general.
+            c) Cuántos votos se escrutaron en total.
+            d) Mostrar el total de votos válidos, blancos e impugnados.
+ 
+ 
+48.         Realizar un juego para adivinar un número. Para ello pedir un número N, y luego ir pidiendo números indicando "mayor" o "menor" según sea mayor o menor con respecto a N. El proceso termina cuando el usuario acierta.
+ 
+49.         Se toman muestran del comportamiento de diversos gases en un ambiente controlado. Cada muestra está compuesta de los siguientes datos:
+            . Código de la muestra (Mayor a cero)
+            . Densidad (entre 0 y 1)
+            . Peso molecular (mayor a cero)
+            . Tipo de gas (1, 2, o 3)
+            Según el tipo de gas se calcula su velocidad de propagación:
+            VP1 = densidad * peso2
+            VP2 = peso4 / densidad
+            VP3 = densidad3 / peso2
+ 
+            La carga de datos finaliza cuando el código es cero.
+            Se pide:
+            a) La mayor velocidad registrada.
+            b) El promedio del peso.
+ 
+50.         Una empresa está necesitando la implementación de un sistema. Esta empresa se dedica a la prestación de servicios de transporte de cargas. Dentro de sus actividades realizan 3 tipos de viajes: corta, media y larga distancia, cada uno con valor distinto por kilómetro, estos valores son precargados al comienzo del sistema y no se modifican. Además se cargan las cantidad mínimas de kilómetros necesarios para dicho tipo de viaje.
+ 
+Se van cargando los viajes indicando el tipo de viaje, junto con el código de cliente, y la cantidad de kilómetros recorridos (esta cantidad tiene que ser mayor al mínimo necesario según el tipo de viaje). Los viajes se cargan mientras el código del clientes sean mayor a cero.
+ 
+El gerente está necesitando los siguientes datos:
+a) El promedio de kilómetros por tipo de viaje.
+b) El cliente con el servicio prestado de mayor importe.
+c) Los kilómetros totales recorridos.
+d) El importe total facturado.
+ 
+51.         Realizar un programa que simula una calculadora con los siguientes operaciones:
++  -  /   *
+Se usa de la siguiente manera:
+Se ingresa operador y luego el segundo operando.
+El primer operando es el resultado anterior.
+ 
+Además tiene la opción de acumular en memoria al seleccionar para luego tener la opción de mostrar el promedio.
+            
+Otras operaciones :    
+C barra Memoria Actual
+CA Barra memoria actual y datos para promedio.  (memoria activa)
+ 
+52.         La nave espacial Viajera está procesando los datos para realizar su próximo salto al hiperespacio. Para ello nos están pidiendo que le desarrollemos un sistema en el menor tiempo posible puesto que estan por ser atacados.
+ 
+Al sistema le van a dar la información de los puntos intermedios que existen desde donde se encuentran hasta la posicion final del salto. Por cada punto se ingresa su distancia y nivel de peligrosidad de pasar por el.
+ 
+Los puntos son cargados en orden de distancia (condición que se debe validar).
+ 
+Estos puntos se terminan de cargar cuando la distancia es menor o igual a cero.
+            
+La nave cuenta con una determinada cantidad de combustible que se ingresa al comienzo de la ejecución del sistema.
+ 
+En cada punto que se decide parar se vuelve a reestablecer la cantidad de combustible (recarga).
+ 
+Para parar en un punto se debe considerar el consumo de combustible hasta ese punto. Si no se llega al próximo se debe parar, si se llega al próximo, se detendrá la nave si el nivel de peligrosidad es menor al 20%.
+            
+El consumo de combustible es el doble de la distancia recorrida.
+            
+Mostrar al final en cuantos puntos se deben parar, la distancia total recorrida, y el combustible consumido.
+ 
+54.         En una elección se cargan documento hasta que uno sea menor o igual a cero.
+Cada documento asocia los votos que esa persona puede aportar
+a) ¿Cuál es el promedio de votos por persona?
+b) ¿Qué persona tiene la mayor cantidad de votos?
+ 
+55.         Un obrero necesita calcular su salario semanal, el cual se obtiene de la siguiente manera:
+Si trabaja 40 horas o menos se le paga $16 por hora
+Si trabaja más de 40 horas se le paga $16 por cada una de las primeras 40 horas y $20 por cada hora extra.
+
+
+
+
+1.- Elaborar un programa que permita introducir dos números por el teclado y mediante un menú que calcule su suma, su producto, su resta, su división y módulo.
+ 
+2.- Introducir por el teclado V o H e imprimir Varón o Hembra.
+ 
+3.- Elaborar el ejercicio #12 de if utilizando switch case.
+ 
+4.- Elaborar un programa que realice la opción seleccionada de acuerdo a lo siguiente:
+ 
+a.- Área de triángulo
+ 
+b.- Área de Cuadrado
+ 
+c.- Área de Circulo
+ 
+d.- Área de Rectángulo
+ 
+5.- Elaborar un programa que lea una letra y determine si es vocal, semivocal o consonante.
+ 
+6.- Elaborar un programa que lea una letra mayúscula e imprima la letra y si ésta es recta (A,E,F,H,I,K,L,M,N,T,V,W,X,Y,Z), es curva (C,O,S,U,Q) o curva y recta (B,D,G,J,P,R).
+ 
+7.- En el juego para dos personas llamado "ROCA, PAPEL Y TIJERAS" cada jugador escoge ser "T", "R" o "P" respectivamente. El jugador se determina así: roca rompe tijeras, las tijeras cortan el papel, el papel cubre la roca, el juego es un empate si ambos jugadores eligen la misma opción. Elaborar un programa para que determine cuál jugador gana, la salida debe mostrarse de la siguiente forma: "T-R Roca rompe tijeras gana el jugador 2".
+ 
+8.-Una empresa desea calcular la productividad de un mes dado, esta se calcula como sigue:
+ 
+Enero, Febrero y Marzo tienen factor 15
+ 
+Abril, Mayo y Junio tienen factor 17
+ 
+Septiembre, Octubre y Noviembre tienen factor 20
+ 
+Diciembre tiene factor 21
+ 
+Se pide elaborar un programa que permita solicitar al usuario un mes cualquiera y se calcule la productividad si se sabe que ésta es igual al número de artículos producidos en el mes multiplicado por el factor del mes que corresponda al mes proporcionado. Se conoce la cantidad de artículos producidos y el mes.
+ 
+9.- Se conocen las calificaciones (A,B,C,D,E) y el número de créditos que corresponde a cada una de los 2 cursos que toma el alumno Juan Pérez. Elaborar un programa que calcule el promedio de las calificaciones de este alumno donde A vale 4 puntos, B = 3, C = 2, D = 1 y E = 0. Así la contribución de una A en un curso de 3 créditos es 4*3 =12, mientras que la contribución de una C en un curso de 4 créditos es 2*4=8.
+ 
+10.- Una empresa clasifica a sus empleados en dos grupos de empleados, los del grupo 1 son aquellos que laboran dentro de la misma y desea darles un aumento de sueldo siguiendo el siguiente criterio: si el empleado trabajó más de 40 horas, su sueldo será incrementado en $50.00, si el empleado es mujer o es mayor de 25 años y tiene en la empresa más de 30 años su sueldo se incrementará en $800.00 y si no cumple con estas condiciones solo se incrementa en $100.00 (esto último es independiente de las horas trabajadas), Para los empleados del grupo 2 (los que aspiran a ingresar a la empresa)si es mayor de 18 años y tiene más de 85 puntos en una prueba presentada entonces será contratado. Elaborar un programa para determinar el sueldo en el caso de los empleados del grupo 1 y si será o no contratado en el caso de los del grupo 2.
+
+
+3) pedir el día, mes y año e indicar si es una fecha válida
+ a) Suponiendo que todos los meses tienen 30 días
+ b) Tomando las longitudes de meses reales
+            31 días: 1 Enero- 3 Marzo- 5 Mayo- 7 Julio- 8 Agosto-10 Octubre-12 Diciembre
+ 
+4) Pedir un número de 5 cifras (validarlo), determinar si es capicúa
+    (TIP: operador %)
+ 
+5) Pedir 4 números, calcular y mostrar la diferencia entre el mayor y el menor.
+ 
+ 
+ 
+10) Hacer un algoritmo que tome el peso en libras de una cantidad de ropa a lavar en una lavadora y nos devuelva el nivel dependiendo del peso; además nos informe la cantidad de litros de agua que necesitamos. Se sabe que con más de 30 libras la lavadora no funcionará ya que es demasiado peso. Si la ropa pesa 22 ó más libras, el nivel será de máximo; si pesa 15 ó más nivel será de alto; si pesa 8 ó más será un nivel medio o de lo contrario el nivel será mínimo.
+ 
+1) Un transportista desea saber cuanto consume en promedio en sus viaje por el país. Además necesita conocer cual de sus  viajes fue el más largo y el promedio de consumo de combustible.
+Para ello carga al sistema los siguiente datos: km recorridos y  combustible (por cada viaje).
+La carga finaliza cuando los km es cero.
+2) Realizar un programa que lea registro con los siguiente datos:
+Nombre - Edad - Altura - Peso - Origen (1-Argentino, 2-Extranjero)
+La carga finaliza con la edad <= 0.
+Calcular y mostrar la siguiente información:
+1) La cantidad de Argentinos y Extranjeros.
+2) El Argentino con mayor edad.
+3) El promedio de peso.
+4) El nombre de la persona más alta.
+3) Una empresa debe realizar el inventario, para ello recibe una lista con 100 facturas a contabilizar. De cada renglón de la lista se informan el código de artículo, la cantidad y el costo. La empresa debe informar el valor total del inventario y el artículo con costo más caro.
+4) Se ha realizado un relevamiento sobre el procesador de texto más utilizado: número  identificatorio (1-Word, 2-LibreWriter y 3-LaTeX), cantidad de documentos creados, tiempo que usan el procesador por día. Se ingresan los datos hasta que el identificador sea igual o menor a 0. Calcular y mostrar:
+a.    Dado un procesador determinado (ingresado por teclado), cuál es el promedio de documentos creados para ese procesador.
+               b.            El procesador con mayor tiempo dedicado.
+5) Una encuestadora debe realizar el sondeo de consumo de un determinado producto, para ello recibe un sobre con 100 encuestas a procesar. En cada encuesta se informan el código de producto (entre 1 y 50), el nivel de satisfacción (entre 0 y 10) y el costo. La encuestadora debe informar el promedio general de satisfacción y dado un código de artículo leído previamente informar su promedio general con su mayor costo.
+6) Ingresar para un análisis de consumo de: tipo de gaseosa (1-Cola, 2-Naranja, 4-Otras), litros consumidos por semana. Se ingresan los datos hasta que el tipo de gaseosa sea igual o menor a 0. Calcular y mostrar:
+                               a.            El promedio general de gaseosa consumida.
+                               b.            El tipo de gaseosa con mayor consumo.
+8) En una elección se cargan documento hasta que uno sea menor o igual a cero. A cada documento se asocian los votos que esa persona puede aportar
+               a) ¿Cuál es el promedio de votos por persona?
+               b) ¿Qué persona tiene la mayor cantidad de votos?
+
+
+
+
+1)      Una ciudad se divide en tres zonas: 1, 2 y 3. En la zona 1, el metro cuadrado se cotiza a $1000. En la zona 2, se cotiza a $900, y en la zona 3 a $700. Una vez calculada la cotizacion, si esta supera el monto de $80000, se le aplica un 2% de impuesto para obtener el precio final del inmueble. Obtener el precio final de un inmueble si se ingresan la zona y la superficie del mismo.
+ 
+2)      Dada el peso, la altura y el sexo, de unos estudiantes. Determinar la cantidad de vitaminas que deben consumir estos estudiantes, en base al siguiente criterio:
+“Si son varones, y su estatura es mayor a 1.60, y su peso es mayor o igual a 150 lb, su dosis, serán: 20% de la estatura y 80% de su peso. De lo contrario, la dosis será la siguiente: 30% de la estatura y 70% de su peso. Si son mujeres, y  su estatura es mayor de a 1.50 m y su peso es mayor o igual a 130 lb, su dosis será: 25% de la estatura y 75% de su peso. De lo contrario, la dosis será: 35% de la estatura y 65% de su peso. La dosis debe ser expresada en gramos.”
+ 
+5)      Leer número enteros mientras sean mayores a cero, calcular si es posible el promedio de los números ingresado.
+6)      Leer un número mientras que sean distintos de cero, de los ingresados determinar el mayor y menor número ingresado.
+ 
+
+
+1)    Leer 10 números y guardarlos en un vector, leer otros 10 números y guardarlos en otro vector. Generar un tercer vector con la intercalación de los 2 anteriores.
+2)    Leer un vector de 10 números e invertir el mismo.
+3)    Leer un vector de 10 números y ordenarlo de mayor a menor.
+4)    Cómo cambia el 6) para que quede de menor a mayor?
+5)    Para investigar: Hacer una función que recibe un vector y retorne la suma de sus elementos.
+
+
+En una empresa se guardan los datos legajos de los empleados con los siguientes datos: nombre, edad y sueldo.
+Realizar un programa que:
+1) Lea 10 legajos
+2) Muestra todos ordenados por sueldos
+3) Muestre el empleado con mayor edad
+4) Lea un legajo completo y verificar que los datos estén en el vector.
+5) Pida una edad y generar un nuevo vector con los legajos que superen esa edad.
+6) Calcule y muestre el promedio de sueldos.
+ 
+Usar: Estructuras, al menos 4 funciones y punteros.
+
+
+
+Programar un juego de apuestas de mayor-menor.
+
+
+4) Leer el número de mes y mostrar cuántos días tiene ese mes (año actual) (TE 10’)
+
+5) Una empresa desea conocer el total de sueldos de sus empleados. Si el último sueldo viene cargado con 0, mostrar dicho total (TE: 15’)
+
+6) Ingresar números hasta que el último sea cero. Calcular la cantidad de positivos. (TE 15’)
+
+7) Ingresar 10 números mayores a 3 y menores a 8. Mostrar el valor ingresado en número y letras. (TE 17’)
+
+8) Se ingresa la altura de N participantes de un grupo de voley. Mostrar la altura máxima (TE 15’)
+
+9) Escribir un programa que sume los números comprendidos entre 1 y el valor que se introduzca por teclado. (TE 10’)
+
+10) Realizar una función  que indique entre dos números cuál es el mayor. Generar un programa que muestre su funcionamiento. (TE 15’)
+
+
+
+
+EXTRA Para casa:
+Realizar una calculadora básica tipo "almacenero"
+La misma funciona de la siguiente manera:
+a) pide un número
+b) pide una operación (suma, resta, multiplicación, división, limpiar memoria, finalizar)
+c) al valor que tiene almacenado previamente (inicialmente en cero) le aplica la operación seleccionada usando el número ingresado como 2do operando.
+Si selecciona limpiar memoria debe poner el cero dicho valor, y si selecciona finalizar, sale del programa.
+
+Ejemplo de ejecución:
+Ingrese numero: 5
+Operación: 1     (suma)
+resultado: 5     (0 + 5)
+Ingrese numero: 10
+Operación: 2     (resta)
+resultado: -5    (5 - 10)
+Ingrese numero: 20
+Operacion: 1     (suma)
+resultado: 15    (-5 + 20)
+Ingree numero: 3
+Operacion: 4     (division)
+resultado: 5     ( 15 / 3 )
+
+
+
+Una empresa necesita informatizar su sistema de atención al cliente.
+Dicho sistema debe funcionar manteniendo un encuesta de satisfacción, donde se le preguntará sobre varios ítems a los encuestados.
+Soporte: 0-Pésimo, 1-Malo, 2-Regular, 3-Bueno, 4-Muy Bueno, 5 Excelente
+Venta: 0-Pésimo, 1-Malo, 2-Regular, 3-Bueno, 4-Muy Bueno, 5 Excelente
+Sistema: 0-Pésimo, 1-Malo, 2-Regular, 3-Bueno, 4-Muy Bueno, 5 Excelente
+Se encuentran a 50 personas al azar y se le preguntan sobre los 3 ítems.
+Al finalizar la encuesta en necesario realizar un análisis en profundidad de los datos recolectados.
+En qué estado se encuentra cada uno de los sectores (el mejor y el peor).
+Cuál es el calificación general de la empresa.
+
+
+
+1)      Realizar un juego para adivinar un número.  Para ello la computadora genera un  número N al azar, y luego ir pidiendo  al usuario números indicando “mayor” o “menor” según sea mayor o menor con respecto a N. El proceso termina  cuando el usuario acierta o supera la cantidad de 5 posibilidades.
+ 
+2)      El Gobierno de una provincia quiere hacer un estudio de hábitos de consumo de
+alcohol y bebida entre la juventud . Para ello, ha escogido una ciudad de la provincia
+donde llevará  a cabo la consulta, para ello se recogerá el número de litros consumidos durante el mes pasado de los 5 tipos de bebidas nombrados a continuación:
+ 
+Tipos De Bebidas
+ 
+0. Naturales: agua, leche, zumos, mostos, infusiones, ...
+1. Gaseosas
+2. Vinos
+3. Cervezas
+            4. Otros: licores,  whisky, ginebra, fernet, etc
+ 
+a. Almacena la información en un array, sobre los litros consumidos de los tipos de       bebidas mencionados (generar al azar un valor para cada uno (0-1000)
+b. Determina el “tipo de bebida” más consumida entre los jóvenes
+c. De los “tipos de bebidas” con alcohol, ¿cuál es el más consumido?
+d. Indicar cantidad total de bebidas con alcohol y sin alcohol consumidas
+ 
+ 
+3)      Una emisora de radio quiere hacer un concurso en el que proponen a sus
+          Oyentes los títulos de 10 canciones, a las que ha numerado del 0 al 9. Cada participante debe llamar para dar los números de 3 títulos por orden de preferencia decreciente.
+Se le dan 3 puntos a la canción que el oyente nombra en 1er lugar, 2 puntos
+a la que indica en 2º lugar y 1 punto a la 3ª.
+Se pide hacer un programa que realice las siguientes tareas:
+ Leer y almacenar los votos emitidos por cada oyente, suponemos que
+como máximo pueden concursar 20 oyentes.
+La entrada de datos se realizará en forma de tríos, con los números de
+las canciones que vota cada oyente.
+Se pide determinar:
+a. El tema  más  votado
+b. Tema   menos votado
+c. cantidad de temas que superan los 20 puntos.
+ 
+4)    En la estación de servicio SUPER  nos han pedido que realicemos un estudio sobre el uso de los distintos surtidores de combustible a lo largo de una día En la estación hay 4 surtidores que cada noche se rellenan a 5000 litros y se los numera del 0 al 3
+0-super /1-nafta común /2-diesel  /3-diesel especial.
+Se tendrá como dato la cantidad vendida de cada uno de ellos (pedirla como dato de ingreso). Se pide calcular:
+-          Que tipo de combustible tiene la mayor venta
+-          Que tipo de combustible tiene la menor venta
+-          Cuanto nos queda de combustible en cada tanque al final del día
+-          Cual es el tipo de combustible más consumido? Nafta o diesel
+ 
+
+
+
+
+Escribir un programa para jugar con la computadora el juego llamado  “ CRAPS “ , en este juego se debe apostar dinero.
+Craps se juega con 3 dados. En la primer tirada, usted puede ganar, perder o continuar. Gana el triple de su apuesta, si la suma  (de los tres dados) es 3 u 18 . Pierde todo su dinero si la suma  es 6, 9 o 12. Caso contrario, usted  tiene derecho a una segunda tirada. En la segunda tirada, se generan los valores de los dados y  si los tres dados son iguales cobra el doble de la apuesta, si alguno de los dados es 1 cobra la apuesta + 10$, si hay 2 dados iguales  no gana ni pierde se le devuelve la apuesta, de lo contrario pierde.
+Usted puede ganar en la primer tirada o en la segunda.
+El programa debe generar al azar  los valores de los dados y el valor de lo que apuesta (0 a 100), se pide informar   si usted ganó o perdió y cuanto debe cobrar a través de un cuadro de mensaje.
+
